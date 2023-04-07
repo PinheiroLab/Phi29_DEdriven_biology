@@ -1,0 +1,3013 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="#"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:dt="urn:schemas-microsoft-com:datatypes" xmlns:ps="http://graphpad.com/prism/Prism.htm" version="1.0">
+	<!--
+	XML style sheet template for formatting data and info tables from GraphPad Prism 8.0.
+	Copyright 1992-2022 GraphPad Software, LLC
+-->
+	<xsl:output method="html" version="4.0" omit-xml-declaration="yes"/>
+	<GraphPadPrismFile xmlns="http://graphpad.com/prism/Prism.htm" PrismXMLVersion="5.00">
+<Created>
+<MostRecentVersion CreatedByProgram="GraphPad Prism" CreatedByVersion="9.4.1.681" Login="PH" DateTime="2023-04-07T20:40:59+01:00"/>
+</Created>
+<InfoSequence>
+<Ref ID="Info0" Selected="1"/>
+</InfoSequence>
+<Info ID="Info0">
+<Title>Project info 1</Title>
+<Notes/>
+<Constant><Name>Experiment Date</Name><Value>2023-04-06</Value></Constant>
+<Constant><Name>Experiment ID</Name><Value/></Constant>
+<Constant><Name>Notebook ID</Name><Value/></Constant>
+<Constant><Name>Project</Name><Value/></Constant>
+<Constant><Name>Experimenter</Name><Value/></Constant>
+<Constant><Name>Protocol</Name><Value/></Constant>
+</Info>
+
+<TableSequence>
+<Ref ID="Table0"/>
+<Ref ID="Table2"/>
+<Ref ID="Table8"/>
+<Ref ID="Table9"/>
+<Ref ID="Table3"/>
+<Ref ID="Table4"/>
+<Ref ID="Table14"/>
+<Ref ID="Table12"/>
+<Ref ID="Table13"/>
+<Ref ID="Table5"/>
+<Ref ID="Table7"/>
+<Ref ID="Table6"/>
+<Ref ID="Table15"/>
+<Ref ID="Table16"/>
+<Ref ID="Table17"/>
+<Ref ID="Table18"/>
+<Ref ID="Table20" Selected="1"/>
+<Ref ID="Table21"/>
+<Ref ID="Table22"/>
+</TableSequence>
+<Table ID="Table0" XFormat="numbers" YFormat="replicates" Replicates="3" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Data_Figure4b_EMSA_0.0225ug_rep1</Title>
+<RowTitlesColumn Width="18">
+<Subcolumn/>
+</RowTitlesColumn>
+<SubColumnTitles OwnSet="0">
+<Subcolumn>
+<d><TextAlign align="Center">Unbound</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Intermediate</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Bound</TextAlign></d>
+</Subcolumn>
+</SubColumnTitles>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>2</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>2</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="237" Decimals="0" Subcolumns="3">
+<Title>Phi29(wt)</Title>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+</Subcolumn>
+<Subcolumn>
+<d>48482.12</d>
+<d>48328.49</d>
+<d>52746.12</d>
+<d>59742.04</d>
+<d>96524.81</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="237" Decimals="3" Subcolumns="3">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>5875.844</d>
+<d>24569.25</d>
+<d>26882.73</d>
+<d>24108.07</d>
+<d>41316.81</d>
+</Subcolumn>
+<Subcolumn>
+<d>7731.589</d>
+<d>16349.572</d>
+<d>17274.643</d>
+<d>20088.593</d>
+<d>27196.877</d>
+</Subcolumn>
+<Subcolumn>
+<d>3287.711</d>
+<d>3396.296</d>
+<d>2485.397</d>
+<d>2367.296</d>
+<d>6477.459</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="237" Decimals="8" Subcolumns="3">
+<Title>P562del</Title>
+<Subcolumn>
+<d>8177.927</d>
+<d>38550.51</d>
+<d>50659.88</d>
+<d>54641.86</d>
+<d>72971.18</d>
+</Subcolumn>
+<Subcolumn>
+<d>19103.44</d>
+<d>37736.17</d>
+<d>41933.19</d>
+<d>59213.33</d>
+<d>62173.41</d>
+</Subcolumn>
+<Subcolumn>
+<d>8828.815</d>
+<d>4680.489</d>
+<d>2853.61</d>
+<d>2771.903</d>
+<d>3907.317</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table2" XFormat="numbers" YFormat="replicates" Replicates="3" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Data_Figure4b_EMSA_0.0225ug_rep2</Title>
+<RowTitlesColumn Width="18">
+<Subcolumn/>
+</RowTitlesColumn>
+<SubColumnTitles OwnSet="0">
+<Subcolumn>
+<d><TextAlign align="Center">Unbound</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Intermediate</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Bound</TextAlign></d>
+</Subcolumn>
+</SubColumnTitles>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>2</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>2</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="237" Decimals="0" Subcolumns="3">
+<Title>Phi29(wt)</Title>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+</Subcolumn>
+<Subcolumn>
+<d>54501.48</d>
+<d>69682.89</d>
+<d>65315.84</d>
+<d>62354.12</d>
+<d>71625.22</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="237" Decimals="3" Subcolumns="3">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>46945.48</d>
+<d>38489.87</d>
+<d>38709.09</d>
+<d>35539.14</d>
+<d>29062.09</d>
+</Subcolumn>
+<Subcolumn>
+<d>31600.35</d>
+<d>29939.6</d>
+<d>29749.3</d>
+<d>22876.04</d>
+<d>21595.61</d>
+</Subcolumn>
+<Subcolumn>
+<d>2270.326</d>
+<d>3885.368</d>
+<d>2577.79</d>
+<d>4019.075</d>
+<d>8990.815</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="237" Decimals="8" Subcolumns="3">
+<Title>P562del</Title>
+<Subcolumn>
+<d>68631.2</d>
+<d>61770.52</d>
+<d>62722.2</d>
+<d>69730.23</d>
+<d>71988.38</d>
+</Subcolumn>
+<Subcolumn>
+<d>37704.66</d>
+<d>46795.22</d>
+<d>47790.65</d>
+<d>50935.01</d>
+<d>37338.38</d>
+</Subcolumn>
+<Subcolumn>
+<d>2618.347</d>
+<d>2604.104</d>
+<d>1332.619</d>
+<d>1567.79</d>
+<d>4255.966</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table8" XFormat="numbers" YFormat="replicates" Replicates="3" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Data_Figure4c_EMSA_0.0015ug_rep1</Title>
+<RowTitlesColumn Width="18">
+<Subcolumn/>
+</RowTitlesColumn>
+<SubColumnTitles OwnSet="0">
+<Subcolumn>
+<d><TextAlign align="Center">Unbound</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Intermediate</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Bound</TextAlign></d>
+</Subcolumn>
+</SubColumnTitles>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>2</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>2</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="237" Decimals="0" Subcolumns="3">
+<Title>Phi29(wt)</Title>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+</Subcolumn>
+<Subcolumn>
+<d>45646.935</d>
+<d>28009.446</d>
+<d>15105.421</d>
+<d>24202.889</d>
+<d>28549.609</d>
+</Subcolumn>
+<Subcolumn>
+<d>39452.91</d>
+<d>34647.03</d>
+<d>30122.56</d>
+<d>35032.38</d>
+<d>53954.3</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="237" Decimals="3" Subcolumns="3">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>33238.13</d>
+<d>35202.26</d>
+<d>28180.99</d>
+<d>27751</d>
+<d>29703.89</d>
+</Subcolumn>
+<Subcolumn>
+<d>24885.07</d>
+<d>24924.342</d>
+<d>26675.605</d>
+<d>24162.655</d>
+<d>45505.952</d>
+</Subcolumn>
+<Subcolumn>
+<d>1239.77</d>
+<d>2400.79</d>
+<d>2640.79</d>
+<d>2269.719</d>
+<d>5615.619</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="237" Decimals="8" Subcolumns="3">
+<Title>P562del</Title>
+<Subcolumn>
+<d>58488.34</d>
+<d>45044.52</d>
+<d>44819.3</d>
+<d>46167.53</d>
+<d>49722.14</d>
+</Subcolumn>
+<Subcolumn>
+<d>23672.756</d>
+<d>32158.525</d>
+<d>36074.203</d>
+<d>30983.546</d>
+<d>57355.822</d>
+</Subcolumn>
+<Subcolumn>
+<d>906.234</d>
+<d>1398.719</d>
+<d>683.991</d>
+<d>784.506</d>
+<d>1808.92</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table9" XFormat="numbers" YFormat="replicates" Replicates="3" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Data_Figure4c_EMSA_0.03ug_rep1</Title>
+<RowTitlesColumn Width="18">
+<Subcolumn/>
+</RowTitlesColumn>
+<SubColumnTitles OwnSet="0">
+<Subcolumn>
+<d><TextAlign align="Center">Unbound</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Intermediate</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Bound</TextAlign></d>
+</Subcolumn>
+</SubColumnTitles>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="237" Decimals="0" Subcolumns="3">
+<Title>Phi29(wt)</Title>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+</Subcolumn>
+<Subcolumn>
+<d>18930.78</d>
+<d>14450.15</d>
+<d>10070.59</d>
+<d>9062.865</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="237" Decimals="3" Subcolumns="3">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+</Subcolumn>
+<Subcolumn>
+<d>33510.153</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+</Subcolumn>
+<Subcolumn>
+<d>8260.56</d>
+<d>21044.61</d>
+<d>11869.74</d>
+<d>14852.22</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="237" Decimals="8" Subcolumns="3">
+<Title>P562del</Title>
+<Subcolumn>
+<d>73131.05</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+</Subcolumn>
+<Subcolumn>
+<d>64719.734</d>
+<d>5399.229</d>
+<d>0</d>
+<d>0</d>
+</Subcolumn>
+<Subcolumn>
+<d>5725.388</d>
+<d>34538.72</d>
+<d>24500.4</d>
+<d>21373.4</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table3" XFormat="numbers" YFormat="replicates" Replicates="2" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Figure4b_percentage_intermediate_EMSA_0.0225ug</Title>
+<RowTitlesColumn Width="19">
+<Subcolumn/>
+</RowTitlesColumn>
+<SubColumnTitles OwnSet="0">
+<Subcolumn>
+<d><TextAlign align="Center">Fraction of Intermediate Complex</TextAlign></d>
+<d/>
+<d>Fraction of Intermediate Complex</d>
+<d>Fraction of Intermediate Complex</d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Fraction of Intermediate Complex</TextAlign></d>
+<d/>
+<d>Fraction of Intermediate Complex</d>
+<d>Fraction of Intermediate Complex</d>
+</Subcolumn>
+</SubColumnTitles>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>2</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>2</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="248" Decimals="6" Subcolumns="2">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>38.50733</d>
+<d>32.84697</d>
+<d>29.49778</d>
+<d>37.83476</d>
+<d>42.80911</d>
+</Subcolumn>
+<Subcolumn>
+<d>36.66845</d>
+<d>37.81958</d>
+<d>38.49798</d>
+<d>36.82119</d>
+<d>44.30146</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="248" Decimals="8" Subcolumns="2">
+<Title>P562del</Title>
+<Subcolumn>
+<d>47.14414</d>
+<d>41.15238</d>
+<d>37.51806</d>
+<d>46.97053</d>
+<d>49.7726</d>
+</Subcolumn>
+<Subcolumn>
+<d>34.69354</d>
+<d>39.09962</d>
+<d>39.99235</d>
+<d>38.18885</d>
+<d>37.97399</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="248" Decimals="6" Subcolumns="2">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>38.50733</d>
+<d>32.84697</d>
+<d>29.49778</d>
+<d>37.83476</d>
+<d>42.80911</d>
+</Subcolumn>
+<Subcolumn>
+<d>36.66845</d>
+<d>37.81958</d>
+<d>38.49798</d>
+<d>36.82119</d>
+<d>44.30146</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="248" Decimals="5" Subcolumns="2">
+<Title>P562del</Title>
+<Subcolumn>
+<d>47.14414</d>
+<d>41.15238</d>
+<d>37.51806</d>
+<d>46.97053</d>
+<d>49.7726</d>
+</Subcolumn>
+<Subcolumn>
+<d>34.69354</d>
+<d>39.09962</d>
+<d>39.99235</d>
+<d>38.18885</d>
+<d>37.97399</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table4" XFormat="numbers" YFormat="replicates" Replicates="2" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Figure4b_percentage_bound_EMSA_0.0225ug</Title>
+<RowTitlesColumn Width="19">
+<Subcolumn/>
+</RowTitlesColumn>
+<SubColumnTitles OwnSet="0">
+<Subcolumn>
+<d><TextAlign align="Center">Fraction of Stable Complex</TextAlign></d>
+<d/>
+<d>Fraction of Stable Complex</d>
+<d>Fraction of Stable Complex</d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Fraction of Stable Complex</TextAlign></d>
+<d/>
+<d>Fraction of Stable Complex</d>
+<d>Fraction of Stable Complex</d>
+</Subcolumn>
+</SubColumnTitles>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>2</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>2</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="88" Decimals="6" Subcolumns="2">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>14.79853</d>
+<d>8.074651</d>
+<d>4.505629</d>
+<d>5.67805</d>
+<d>8.10454</d>
+</Subcolumn>
+<Subcolumn>
+<d>3.872328</d>
+<d>7.706298</d>
+<d>6.281373</d>
+<d>6.965878</d>
+<d>13.30946</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="88" Decimals="8" Subcolumns="2">
+<Title>P562del</Title>
+<Subcolumn>
+<d>23.42129</d>
+<d>6.629496</d>
+<d>2.538994</d>
+<d>2.695282</d>
+<d>2.652125</d>
+</Subcolumn>
+<Subcolumn>
+<d>3.831428</d>
+<d>5.054387</d>
+<d>3.836614</d>
+<d>2.671044</d>
+<d>4.446359</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="88" Decimals="6" Subcolumns="2">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>14.79853</d>
+<d>8.074651</d>
+<d>4.505629</d>
+<d>5.67805</d>
+<d>8.10454</d>
+</Subcolumn>
+<Subcolumn>
+<d>3.872328</d>
+<d>7.706298</d>
+<d>6.281373</d>
+<d>6.965878</d>
+<d>13.30946</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="88" Decimals="6" Subcolumns="2">
+<Title>P562del</Title>
+<Subcolumn>
+<d>23.42129</d>
+<d>6.629496</d>
+<d>2.538994</d>
+<d>2.695282</d>
+<d>2.652125</d>
+</Subcolumn>
+<Subcolumn>
+<d>3.831428</d>
+<d>5.054387</d>
+<d>3.836614</d>
+<d>2.671044</d>
+<d>4.446359</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table14" XFormat="numbers" YFormat="upper-lower-limits" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Figure4c_percentage_bound_EMSA_conc</Title>
+<RowTitlesColumn Width="35">
+<Subcolumn>
+<d>D12A-THR</d>
+<d>P562del</d>
+<d>D12A-THR</d>
+<d>P562del</d>
+<d>D12A-THR</d>
+<d>P562del</d>
+</Subcolumn>
+</RowTitlesColumn>
+<SubColumnTitles OwnSet="0">
+<Subcolumn>
+<d><TextAlign align="Center">Fraction of Intermediate Complex</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Fraction of Stable Complex</TextAlign></d>
+</Subcolumn>
+</SubColumnTitles>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title/>
+<Subcolumn>
+<d>1</d>
+<d>2</d>
+<d>3</d>
+<d>4</d>
+<d>5</d>
+<d>6</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>1</d>
+<d>2</d>
+<d>3</d>
+<d>4</d>
+<d>5</d>
+<d>6</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="246" Decimals="9" Subcolumns="3">
+<Title>0 min</Title>
+<Subcolumn>
+<d>6.285042659</d>
+<d>2.240771328</d>
+<d>3.872328099</d>
+<d>3.831427744</d>
+<d>45.99051745</d>
+<d>9.749127023</d>
+</Subcolumn>
+<Subcolumn>
+<d>14.3914153</d>
+<d>5.81683667</d>
+<d>13.309458</d>
+<d>4.4463589</d>
+<d>100</d>
+<d>94.9548053</d>
+</Subcolumn>
+<Subcolumn>
+<d>6.285042659</d>
+<d>2.240771328</d>
+<d>3.872328099</d>
+<d>3.831427744</d>
+<d>45.99051745</d>
+<d>9.749127023</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="246" Decimals="8" Subcolumns="3">
+<Title>15 min</Title>
+<Subcolumn>
+<d>14.3914153</d>
+<d>5.81683667</d>
+<d>13.309458</d>
+<d>4.4463589</d>
+<d>100</d>
+<d>94.9548053</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table12" XFormat="numbers" YFormat="replicates" Replicates="3" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Figure3b_HNAkinetics_un-extended_primer_reps1-3</Title>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title>Time</Title>
+<Subcolumn>
+<d>0</d>
+<d>1</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+<d>240</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title>Time</Title>
+<Subcolumn>
+<d>0</d>
+<d>1</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+<d>240</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="264" Decimals="9" Subcolumns="3">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>0</d>
+<d>-0.15964</d>
+<d>-0.49208</d>
+<d>-0.20157</d>
+<d>-0.24655</d>
+<d>-0.21683</d>
+<d>-1.02502</d>
+<d/>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0.094112755</d>
+<d>0.01930975</d>
+<d>-0.081023933</d>
+<d>-0.07876635</d>
+<d>-0.015984182</d>
+<d>-0.281490288</d>
+<d>-1.59165702</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>-0.117721602</d>
+<d>-0.190363605</d>
+<d>-0.407776154</d>
+<d>-0.345031518</d>
+<d>-0.35625282</d>
+<d/>
+<d>-1.026878392</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="237" Decimals="6" Subcolumns="3">
+<Title>P562del</Title>
+<Subcolumn>
+<d>0</d>
+<d>-0.06639</d>
+<d>-0.65586</d>
+<d>-0.42464</d>
+<d>-0.00669</d>
+<d>0.005143</d>
+<d>-0.7375</d>
+<d/>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0.009635263</d>
+<d>0.067713619</d>
+<d>0.025837449</d>
+<d>-0.352824731</d>
+<d>0.002581273</d>
+<d>-0.869298598</d>
+<d>-1.178003184</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>-0.117734371</d>
+<d>-0.192074209</d>
+<d>-0.165161127</d>
+<d>-0.214761503</d>
+<d>-0.610061007</d>
+<d/>
+<d>-0.896213873</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="264" Decimals="9" Subcolumns="3">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>0</d>
+<d>-0.15964</d>
+<d>-0.49208</d>
+<d>-0.20157</d>
+<d>-0.24655</d>
+<d>-0.21683</d>
+<d>-1.02502</d>
+<d/>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0.094112755</d>
+<d>0.01930975</d>
+<d>-0.081023933</d>
+<d>-0.07876635</d>
+<d>-0.015984182</d>
+<d>-0.281490288</d>
+<d>-1.59165702</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>-0.117721602</d>
+<d>-0.190363605</d>
+<d>-0.407776154</d>
+<d>-0.345031518</d>
+<d>-0.35625282</d>
+<d/>
+<d>-1.026878392</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="264" Decimals="6" Subcolumns="3">
+<Title>P562del</Title>
+<Subcolumn>
+<d>0</d>
+<d>-0.06639</d>
+<d>-0.65586</d>
+<d>-0.42464</d>
+<d>-0.00669</d>
+<d>0.005143</d>
+<d>-0.7375</d>
+<d/>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0.009635263</d>
+<d>0.067713619</d>
+<d>0.025837449</d>
+<d>-0.352824731</d>
+<d>0.002581273</d>
+<d>-0.869298598</d>
+<d>-1.178003184</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>-0.117734371</d>
+<d>-0.192074209</d>
+<d>-0.165161127</d>
+<d>-0.214761503</d>
+<d>-0.610061007</d>
+<d/>
+<d>-0.896213873</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table13" XFormat="numbers" YFormat="replicates" Replicates="3" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Figure3c_HNAsynthesis_extended_primer_reps1-3</Title>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title>Time</Title>
+<Subcolumn>
+<d>0</d>
+<d>1</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+<d>240</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title>Time</Title>
+<Subcolumn>
+<d>0</d>
+<d>1</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+<d>240</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="243" Decimals="9" Subcolumns="3">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>0</d>
+<d>0.246340107</d>
+<d>0.567199102</d>
+<d>0.729356912</d>
+<d>0.687117476</d>
+<d>0.99190003</d>
+<d>1.16381069</d>
+<d/>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>3.240753868</d>
+<d>3.697212162</d>
+<d>3.560615872</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>3.306683</d>
+<d/>
+<d>3.787334</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="243" Decimals="9" Subcolumns="3">
+<Title>P562del</Title>
+<Subcolumn>
+<d>0</d>
+<d>0.406815243</d>
+<d>0.470053452</d>
+<d>1.642471014</d>
+<d>1.636487702</d>
+<d>1.675442302</d>
+<d>1.952835117</d>
+<d/>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>2.87205133</d>
+<d>3.364382873</d>
+<d>3.720124641</d>
+<d>4.425069094</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>3.82316</d>
+<d>3.732103</d>
+<d>3.971357</d>
+<d>4.122858</d>
+<d/>
+<d>4.391139</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="243" Decimals="9" Subcolumns="3">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>0</d>
+<d>0.246340107</d>
+<d>0.567199102</d>
+<d>0.729356912</d>
+<d>0.687117476</d>
+<d>0.99190003</d>
+<d>1.16381069</d>
+<d/>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>3.240753868</d>
+<d>3.697212162</d>
+<d>3.560615872</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>3.306683</d>
+<d/>
+<d>3.787334</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="243" Decimals="9" Subcolumns="3">
+<Title>P562del</Title>
+<Subcolumn>
+<d>0</d>
+<d>0.406815243</d>
+<d>0.470053452</d>
+<d>1.642471014</d>
+<d>1.636487702</d>
+<d>1.675442302</d>
+<d>1.952835117</d>
+<d/>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>2.87205133</d>
+<d>3.364382873</d>
+<d>3.720124641</d>
+<d>4.425069094</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>3.82316</d>
+<d>3.732103</d>
+<d>3.971357</d>
+<d>4.122858</d>
+<d/>
+<d>4.391139</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table5" XFormat="none" TableType="OneWay" ExtTableType="MultipleVariables" EVFormat="AsteriskAfterNumber">
+<Title>Data_Figure3e_HNAsynthesis_conc_rep1</Title>
+<YColumn Width="56" Decimals="3" Subcolumns="1" MVType="Categorical" statDecimals="0" statNumbers="0" statTexts="12">
+<Title>Template</Title>
+<CategoryDictionary>
+<d id="0" firstRowUsage="0" numUsage="8" numExcluded="0">TEMP_N</d>
+<d id="1" firstRowUsage="8" numUsage="2" numExcluded="0">TEMP_N2.7</d>
+<d id="2" firstRowUsage="9" numUsage="2" numExcluded="0">TEMP_N_1T</d>
+</CategoryDictionary>
+<Subcolumn>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N2.7" num="1">TEMP_N2.7</d>
+<d CellType="Text" UserText="TEMP_N_1T" num="2">TEMP_N_1T</d>
+<d CellType="Text" UserText="TEMP_N2.7" num="1">TEMP_N2.7</d>
+<d CellType="Text" UserText="TEMP_N_1T" num="2">TEMP_N_1T</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="44" Decimals="0" Subcolumns="1" MVType="Categorical" statDecimals="0" statNumbers="0" statTexts="12">
+<Title>Mutant</Title>
+<CategoryDictionary>
+<d id="0" firstRowUsage="0" numUsage="6" numExcluded="0">D12A</d>
+<d id="1" firstRowUsage="4" numUsage="6" numExcluded="0">DEL</d>
+</CategoryDictionary>
+<Subcolumn>
+<d CellType="Text" UserText="D12A" num="0">D12A</d>
+<d CellType="Text" UserText="D12A" num="0">D12A</d>
+<d CellType="Text" UserText="D12A" num="0">D12A</d>
+<d CellType="Text" UserText="D12A" num="0">D12A</d>
+<d CellType="Text" UserText="DEL" num="1">DEL</d>
+<d CellType="Text" UserText="DEL" num="1">DEL</d>
+<d CellType="Text" UserText="DEL" num="1">DEL</d>
+<d CellType="Text" UserText="DEL" num="1">DEL</d>
+<d CellType="Text" UserText="D12A" num="0">D12A</d>
+<d CellType="Text" UserText="D12A" num="0">D12A</d>
+<d CellType="Text" UserText="DEL" num="1">DEL</d>
+<d CellType="Text" UserText="DEL" num="1">DEL</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="114" Decimals="2" Subcolumns="1" MVType="Continues" statDecimals="12" statNumbers="0" statTexts="0">
+<Title>Concentration (uM)</Title>
+<Subcolumn>
+<d CellType="Decimal" UserText="0.45">0.45</d>
+<d CellType="Decimal" UserText="0.22">0.22</d>
+<d CellType="Decimal" UserText="0.11">0.11</d>
+<d CellType="Decimal" UserText="0.06">0.06</d>
+<d CellType="Decimal" UserText="0.45">0.45</d>
+<d CellType="Decimal" UserText="0.22">0.22</d>
+<d CellType="Decimal" UserText="0.11">0.11</d>
+<d CellType="Decimal" UserText="0.06">0.06</d>
+<d CellType="Decimal" UserText="0.22">0.22</d>
+<d CellType="Decimal" UserText="0.22">0.22</d>
+<d CellType="Decimal" UserText="0.22">0.22</d>
+<d CellType="Decimal" UserText="0.22">0.22</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="67" Decimals="3" Subcolumns="1" MVType="Continues" statDecimals="12" statNumbers="0" statTexts="0">
+<Title>Primer</Title>
+<Subcolumn>
+<d CellType="Decimal" UserText="56247.973">56247.973</d>
+<d CellType="Decimal" UserText="61607.789">61607.789</d>
+<d CellType="Decimal" UserText="69811.538">69811.538</d>
+<d CellType="Decimal" UserText="73590.266">73590.266</d>
+<d CellType="Decimal" UserText="6056.489">6056.489</d>
+<d CellType="Decimal" UserText="15645.271">15645.271</d>
+<d CellType="Decimal" UserText="36650.233">36650.233</d>
+<d CellType="Decimal" UserText="55307.375">55307.375</d>
+<d CellType="Decimal" UserText="72091.86">72091.86</d>
+<d CellType="Decimal" UserText="71495.103">71495.103</d>
+<d CellType="Decimal" UserText="55342.546">55342.546</d>
+<d CellType="Decimal" UserText="30737.99">30737.99</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="106" Decimals="3" Subcolumns="1" MVType="Continues" statDecimals="12" statNumbers="0" statTexts="0">
+<Title>Extended product</Title>
+<Subcolumn>
+<d CellType="Decimal" UserText="18838.597">18838.597</d>
+<d CellType="Decimal" UserText="24472.747">24472.747</d>
+<d CellType="Decimal" UserText="19628.425">19628.425</d>
+<d CellType="Decimal" UserText="9179.229">9179.229</d>
+<d CellType="Decimal" UserText="28295.425">28295.425</d>
+<d CellType="Decimal" UserText="27499.475">27499.475</d>
+<d CellType="Decimal" UserText="21617.404">21617.404</d>
+<d CellType="Decimal" UserText="11767.028">11767.028</d>
+<d CellType="Decimal" UserText="25426.86">25426.86</d>
+<d CellType="Decimal" UserText="33754.032">33754.032</d>
+<d CellType="Decimal" UserText="30097.475">30097.475</d>
+<d CellType="Decimal" UserText="31898.688">31898.688</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="8" Subcolumns="1" MVType="Continues" statDecimals="12" statNumbers="0" statTexts="0">
+<Title>%Extended</Title>
+<Subcolumn>
+<d CellType="Decimal" UserText="25.08916974">25.08916974</d>
+<d CellType="Decimal" UserText="28.4300588">28.4300588</d>
+<d CellType="Decimal" UserText="21.94592254">21.94592254</d>
+<d CellType="Decimal" UserText="11.09011116">11.09011116</d>
+<d CellType="Decimal" UserText="82.36928225">82.36928225</d>
+<d CellType="Decimal" UserText="63.73771444">63.73771444</d>
+<d CellType="Decimal" UserText="37.10018994">37.10018994</d>
+<d CellType="Decimal" UserText="17.54324671">17.54324671</d>
+<d CellType="Decimal" UserText="26.07382459">26.07382459</d>
+<d CellType="Decimal" UserText="32.07060277">32.07060277</d>
+<d CellType="Decimal" UserText="35.2264368">35.2264368</d>
+<d CellType="Decimal" UserText="50.92653221">50.92653221</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table7" XFormat="none" TableType="OneWay" ExtTableType="MultipleVariables" EVFormat="AsteriskAfterNumber">
+<Title>Data_Figure3e_HNAsynthesis_conc_rep2</Title>
+<YColumn Width="56" Decimals="3" Subcolumns="1" MVType="Categorical" statDecimals="0" statNumbers="0" statTexts="12">
+<Title>Template</Title>
+<CategoryDictionary>
+<d id="0" firstRowUsage="0" numUsage="8" numExcluded="0">TEMP_N</d>
+<d id="1" firstRowUsage="8" numUsage="2" numExcluded="0">TEMP_N2.7</d>
+<d id="2" firstRowUsage="9" numUsage="2" numExcluded="0">TEMP_N_1T</d>
+</CategoryDictionary>
+<Subcolumn>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N2.7" num="1">TEMP_N2.7</d>
+<d CellType="Text" UserText="TEMP_N_1T" num="2">TEMP_N_1T</d>
+<d CellType="Text" UserText="TEMP_N2.7" num="1">TEMP_N2.7</d>
+<d CellType="Text" UserText="TEMP_N_1T" num="2">TEMP_N_1T</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="44" Decimals="0" Subcolumns="1" MVType="Categorical" statDecimals="0" statNumbers="0" statTexts="12">
+<Title>Mutant</Title>
+<CategoryDictionary>
+<d id="0" firstRowUsage="0" numUsage="6" numExcluded="0">D12A</d>
+<d id="1" firstRowUsage="4" numUsage="6" numExcluded="0">DEL</d>
+</CategoryDictionary>
+<Subcolumn>
+<d CellType="Text" UserText="D12A" num="0">D12A</d>
+<d CellType="Text" UserText="D12A" num="0">D12A</d>
+<d CellType="Text" UserText="D12A" num="0">D12A</d>
+<d CellType="Text" UserText="D12A" num="0">D12A</d>
+<d CellType="Text" UserText="DEL" num="1">DEL</d>
+<d CellType="Text" UserText="DEL" num="1">DEL</d>
+<d CellType="Text" UserText="DEL" num="1">DEL</d>
+<d CellType="Text" UserText="DEL" num="1">DEL</d>
+<d CellType="Text" UserText="D12A" num="0">D12A</d>
+<d CellType="Text" UserText="D12A" num="0">D12A</d>
+<d CellType="Text" UserText="DEL" num="1">DEL</d>
+<d CellType="Text" UserText="DEL" num="1">DEL</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="114" Decimals="2" Subcolumns="1" MVType="Continues" statDecimals="12" statNumbers="0" statTexts="0">
+<Title>Concentration (uM)</Title>
+<Subcolumn>
+<d CellType="Decimal" UserText="0.45">0.45</d>
+<d CellType="Decimal" UserText="0.22">0.22</d>
+<d CellType="Decimal" UserText="0.11">0.11</d>
+<d CellType="Decimal" UserText="0.06">0.06</d>
+<d CellType="Decimal" UserText="0.45">0.45</d>
+<d CellType="Decimal" UserText="0.22">0.22</d>
+<d CellType="Decimal" UserText="0.11">0.11</d>
+<d CellType="Decimal" UserText="0.06">0.06</d>
+<d CellType="Decimal" UserText="0.22">0.22</d>
+<d CellType="Decimal" UserText="0.22">0.22</d>
+<d CellType="Decimal" UserText="0.22">0.22</d>
+<d CellType="Decimal" UserText="0.22">0.22</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="67" Decimals="3" Subcolumns="1" MVType="Continues" statDecimals="12" statNumbers="0" statTexts="0">
+<Title>Primer</Title>
+<Subcolumn>
+<d CellType="Decimal" UserText="50886.78">50886.78</d>
+<d CellType="Decimal" UserText="67469.73">67469.73</d>
+<d CellType="Decimal" UserText="74714.32">74714.32</d>
+<d CellType="Decimal" UserText="80633.95">80633.95</d>
+<d CellType="Decimal" UserText="5017.933">5017.933</d>
+<d CellType="Decimal" UserText="12571.02">12571.02</d>
+<d CellType="Decimal" UserText="30535.72">30535.72</d>
+<d CellType="Decimal" UserText="54986.71">54986.71</d>
+<d CellType="Decimal" UserText="68690.54">68690.54</d>
+<d CellType="Decimal" UserText="66062.07">66062.07</d>
+<d CellType="Decimal" UserText="42237.76">42237.76</d>
+<d CellType="Decimal" UserText="16338.61">16338.61</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="106" Decimals="3" Subcolumns="1" MVType="Continues" statDecimals="12" statNumbers="0" statTexts="0">
+<Title>Extended product</Title>
+<Subcolumn>
+<d CellType="Decimal" UserText="9501.723">9501.723</d>
+<d CellType="Decimal" UserText="14392.82">14392.82</d>
+<d CellType="Decimal" UserText="15189.35">15189.35</d>
+<d CellType="Decimal" UserText="8349.217">8349.217</d>
+<d CellType="Decimal" UserText="13408.06">13408.06</d>
+<d CellType="Decimal" UserText="12725.69">12725.69</d>
+<d CellType="Decimal" UserText="9829.844">9829.844</d>
+<d CellType="Decimal" UserText="6099.731">6099.731</d>
+<d CellType="Decimal" UserText="16723.49">16723.49</d>
+<d CellType="Decimal" UserText="20298.17">20298.17</d>
+<d CellType="Decimal" UserText="14470.44">14470.44</d>
+<d CellType="Decimal" UserText="17505.53">17505.53</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="71" Decimals="6" Subcolumns="1" MVType="Continues" statDecimals="12" statNumbers="0" statTexts="0">
+<Title>%Extended</Title>
+<Subcolumn>
+<d CellType="Decimal" UserText="15.73432">15.73432</d>
+<d CellType="Decimal" UserText="17.58169">17.58169</d>
+<d CellType="Decimal" UserText="16.89514">16.89514</d>
+<d CellType="Decimal" UserText="9.382917">9.382917</d>
+<d CellType="Decimal" UserText="72.76709">72.76709</d>
+<d CellType="Decimal" UserText="50.30573">50.30573</d>
+<d CellType="Decimal" UserText="24.35206">24.35206</d>
+<d CellType="Decimal" UserText="9.985409">9.985409</d>
+<d CellType="Decimal" UserText="19.57933">19.57933</d>
+<d CellType="Decimal" UserText="23.50407">23.50407</d>
+<d CellType="Decimal" UserText="25.51737">25.51737</d>
+<d CellType="Decimal" UserText="51.72396">51.72396</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table6" XFormat="numbers" YFormat="replicates" Replicates="2" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Figure3e_HNAsynthesis_conc_extended_fraction</Title>
+<XColumn Width="114" Subcolumns="1" Decimals="4">
+<Title>Concentration (μM)</Title>
+<Subcolumn>
+<d>0.45</d>
+<d>0.22</d>
+<d>0.11</d>
+<d>0.06</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="114" Decimals="4" Subcolumns="1">
+<Title>Concentration (μM)</Title>
+<Subcolumn>
+<d>0.45</d>
+<d>0.22</d>
+<d>0.11</d>
+<d>0.06</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="162" Decimals="8" Subcolumns="2">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>25.08916974</d>
+<d>28.4300588</d>
+<d>21.94592254</d>
+<d>11.09011116</d>
+</Subcolumn>
+<Subcolumn>
+<d>15.73432</d>
+<d>17.58169</d>
+<d>16.89514</d>
+<d>9.382917</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="162" Decimals="8" Subcolumns="2">
+<Title>P562del</Title>
+<Subcolumn>
+<d>82.36928225</d>
+<d>63.73771444</d>
+<d>37.10018994</d>
+<d>17.54324671</d>
+</Subcolumn>
+<Subcolumn>
+<d>72.76709</d>
+<d>50.30573</d>
+<d>24.35206</d>
+<d>9.985409</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="162" Decimals="8" Subcolumns="2">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>25.08916974</d>
+<d>28.4300588</d>
+<d>21.94592254</d>
+<d>11.09011116</d>
+</Subcolumn>
+<Subcolumn>
+<d>15.73432</d>
+<d>17.58169</d>
+<d>16.89514</d>
+<d>9.382917</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="162" Decimals="8" Subcolumns="2">
+<Title>P562del</Title>
+<Subcolumn>
+<d>82.36928225</d>
+<d>63.73771444</d>
+<d>37.10018994</d>
+<d>17.54324671</d>
+</Subcolumn>
+<Subcolumn>
+<d>72.76709</d>
+<d>50.30573</d>
+<d>24.35206</d>
+<d>9.985409</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table15" XFormat="numbers" YFormat="replicates" Replicates="3" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Data_SI_Figure3b_EMSA_biorep1_techrep1</Title>
+<RowTitlesColumn Width="18">
+<Subcolumn/>
+</RowTitlesColumn>
+<SubColumnTitles OwnSet="0">
+<Subcolumn>
+<d><TextAlign align="Center">Unbound</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Intermediate</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Bound</TextAlign></d>
+</Subcolumn>
+</SubColumnTitles>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="237" Decimals="3" Subcolumns="3">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>43248.86</d>
+<d>30803.706</d>
+<d>45556.224</d>
+<d>23295.622</d>
+</Subcolumn>
+<Subcolumn>
+<d>27520.387</d>
+<d>11570.032</d>
+<d>5890.555</d>
+<d>2371.22</d>
+</Subcolumn>
+<Subcolumn>
+<d>2481.037</d>
+<d>25253.721</d>
+<d>26710.621</d>
+<d>35910.006</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="237" Decimals="8" Subcolumns="3">
+<Title>P562del</Title>
+<Subcolumn>
+<d>74826.775</d>
+<d>49472.68</d>
+<d>45931.759</d>
+<d>22692.329</d>
+</Subcolumn>
+<Subcolumn>
+<d>20539.362</d>
+<d>29110.304</d>
+<d>9804.584</d>
+<d>5364.149</d>
+</Subcolumn>
+<Subcolumn>
+<d>1470.53</d>
+<d>1331.288</d>
+<d>5120.765</d>
+<d>17820.245</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table16" XFormat="numbers" YFormat="replicates" Replicates="3" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Data_SI_Figure3b_EMSA_rep2_biorep1_techrep2</Title>
+<RowTitlesColumn Width="39">
+<Subcolumn/>
+</RowTitlesColumn>
+<SubColumnTitles OwnSet="0">
+<Subcolumn>
+<d><TextAlign align="Center">Unbound</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Intermediate</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Bound</TextAlign></d>
+</Subcolumn>
+</SubColumnTitles>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="237" Decimals="3" Subcolumns="3">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>11685.271</d>
+<d>1857.933</d>
+<d>7749.602</d>
+<d>1630.589</d>
+</Subcolumn>
+<Subcolumn>
+<d>19961.697</d>
+<d>10801.534</d>
+<d>3729.48</d>
+<d>1873.016</d>
+</Subcolumn>
+<Subcolumn>
+<d>2320.459</d>
+<d>11303.927</d>
+<d>11117.049</d>
+<d>19887.668</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="306" Decimals="8" Subcolumns="3">
+<Title>P562del</Title>
+<Subcolumn>
+<d>27816.759</d>
+<d>6688.602</d>
+<d>13034.362</d>
+<d>1056.79</d>
+</Subcolumn>
+<Subcolumn>
+<d>6496.217</d>
+<d>14203.492</d>
+<d>9121.794</d>
+<d>4566.472</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>2487.095</d>
+<d>9437.362</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table17" XFormat="numbers" YFormat="replicates" Replicates="3" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Data_SI_Figure3b_EMSA_rep3__biorep2_techrep1</Title>
+<RowTitlesColumn Width="18">
+<Subcolumn/>
+</RowTitlesColumn>
+<SubColumnTitles OwnSet="0">
+<Subcolumn>
+<d><TextAlign align="Center">Unbound</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Intermediate</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Bound</TextAlign></d>
+</Subcolumn>
+</SubColumnTitles>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="237" Decimals="3" Subcolumns="3">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>16495.354</d>
+<d>10980.442</d>
+<d>5628.258</d>
+<d>2709.045</d>
+</Subcolumn>
+<Subcolumn>
+<d>20401.96</d>
+<d>3206.392</d>
+<d>2743.078</d>
+<d>1029.522</d>
+</Subcolumn>
+<Subcolumn>
+<d>2682.602</d>
+<d>24153.245</d>
+<d>22474.831</d>
+<d>37768.014</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="237" Decimals="8" Subcolumns="3">
+<Title>P562del</Title>
+<Subcolumn>
+<d>30600.914</d>
+<d>28869.517</d>
+<d>26816.931</d>
+<d>7475.049</d>
+</Subcolumn>
+<Subcolumn>
+<d>19604.04</d>
+<d>15582.141</d>
+<d>8858.2</d>
+<d>8090.999</d>
+</Subcolumn>
+<Subcolumn>
+<d>367.77</d>
+<d>920.489</d>
+<d>3129.622</d>
+<d>10464.525</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table18" XFormat="numbers" YFormat="replicates" Replicates="3" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Data_SI_Figure3b_EMSA_rep4_biorep2_techrep2</Title>
+<RowTitlesColumn Width="18">
+<Subcolumn/>
+</RowTitlesColumn>
+<SubColumnTitles OwnSet="0">
+<Subcolumn>
+<d><TextAlign align="Center">Unbound</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Intermediate</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Bound</TextAlign></d>
+</Subcolumn>
+</SubColumnTitles>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="237" Decimals="3" Subcolumns="3">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>37796.697</d>
+<d>29120.321</d>
+<d>27010.543</d>
+<d>16896.723</d>
+</Subcolumn>
+<Subcolumn>
+<d>17679.38</d>
+<d>2551.401</d>
+<d>1489.53</d>
+<d>314.861</d>
+</Subcolumn>
+<Subcolumn>
+<d>3063.572</d>
+<d>19845.538</d>
+<d>18266.496</d>
+<d>20667.839</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="237" Decimals="8" Subcolumns="3">
+<Title>P562del</Title>
+<Subcolumn>
+<d>54245.701</d>
+<d>50165.73</d>
+<d>52001.579</d>
+<d>32422.513</d>
+</Subcolumn>
+<Subcolumn>
+<d>15580.58</d>
+<d>13544.1</d>
+<d>7126.572</d>
+<d>6121.936</d>
+</Subcolumn>
+<Subcolumn>
+<d>1084.317</d>
+<d>1527.974</d>
+<d>3581.501</d>
+<d>4387.329</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table20" XFormat="numbers" YFormat="replicates" Replicates="2" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>SI_Figure3b_percentage_intermediate</Title>
+<RowTitlesColumn Width="79">
+<Subcolumn/>
+</RowTitlesColumn>
+<SubColumnTitles OwnSet="0">
+<Subcolumn>
+<d><TextAlign align="Center">Fraction of Intermediate Complex</TextAlign></d>
+<d/>
+<d>Fraction of Intermediate Complex</d>
+<d>Fraction of Intermediate Complex</d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Fraction of Intermediate Complex</TextAlign></d>
+<d/>
+<d>Fraction of Intermediate Complex</d>
+<d>Fraction of Intermediate Complex</d>
+</Subcolumn>
+</SubColumnTitles>
+<XColumn Width="169" Subcolumns="1" Decimals="0">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="169" Decimals="0" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="530" Decimals="8" Subcolumns="2">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>0.481688</d>
+<d>0.310918</d>
+<d>0.120209</d>
+<d>0.059291</d>
+</Subcolumn>
+<Subcolumn>
+<d>0.408735</d>
+<d>0.066578</d>
+<d>0.060389</d>
+<d>0.016558</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="530" Decimals="8" Subcolumns="2">
+<Title>P562del</Title>
+<Subcolumn>
+<d>0.200713</d>
+<d>0.52206</d>
+<d>0.265631</d>
+<d>0.210066</d>
+</Subcolumn>
+<Subcolumn>
+<d>0.303681</d>
+<d>0.27552</d>
+<d>0.17096</d>
+<d>0.226712</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="530" Decimals="8" Subcolumns="2">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>0.481688</d>
+<d>0.310918</d>
+<d>0.120209</d>
+<d>0.059291</d>
+</Subcolumn>
+<Subcolumn>
+<d>0.408735</d>
+<d>0.066578</d>
+<d>0.060389</d>
+<d>0.016558</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="530" Decimals="6" Subcolumns="2">
+<Title>P562del</Title>
+<Subcolumn>
+<d>0.200713</d>
+<d>0.52206</d>
+<d>0.265631</d>
+<d>0.210066</d>
+</Subcolumn>
+<Subcolumn>
+<d>0.303681</d>
+<d>0.27552</d>
+<d>0.17096</d>
+<d>0.226712</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table21" XFormat="numbers" YFormat="replicates" Replicates="2" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>SI_Figure3b_percentage_bound</Title>
+<RowTitlesColumn Width="39">
+<Subcolumn/>
+</RowTitlesColumn>
+<SubColumnTitles OwnSet="0">
+<Subcolumn>
+<d><TextAlign align="Center">Fraction of Intermediate Complex</TextAlign></d>
+<d/>
+<d>Fraction of Intermediate Complex</d>
+<d>Fraction of Intermediate Complex</d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Fraction of Intermediate Complex</TextAlign></d>
+<d/>
+<d>Fraction of Intermediate Complex</d>
+<d>Fraction of Intermediate Complex</d>
+</Subcolumn>
+</SubColumnTitles>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="248" Decimals="8" Subcolumns="2">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>0.051092</d>
+<d>0.42257</d>
+<d>0.416872</d>
+<d>0.716696</d>
+</Subcolumn>
+<Subcolumn>
+<d>0.060055</d>
+<d>0.507597</d>
+<d>0.559599</d>
+<d>0.727775</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="248" Decimals="8" Subcolumns="2">
+<Title>P562del</Title>
+<Subcolumn>
+<d>0.007593</d>
+<d>0.008329</d>
+<d>0.092534</d>
+<d>0.507531</d>
+</Subcolumn>
+<Subcolumn>
+<d>0.011282</d>
+<d>0.021855</d>
+<d>0.068881</d>
+<d>0.252101</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="248" Decimals="8" Subcolumns="2">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>0.051092</d>
+<d>0.42257</d>
+<d>0.416872</d>
+<d>0.716696</d>
+</Subcolumn>
+<Subcolumn>
+<d>0.060055</d>
+<d>0.507597</d>
+<d>0.559599</d>
+<d>0.727775</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="248" Decimals="6" Subcolumns="2">
+<Title>P562del</Title>
+<Subcolumn>
+<d>0.007593</d>
+<d>0.008329</d>
+<d>0.092534</d>
+<d>0.507531</d>
+</Subcolumn>
+<Subcolumn>
+<d>0.011282</d>
+<d>0.021855</d>
+<d>0.068881</d>
+<d>0.252101</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table22" XFormat="numbers" YFormat="replicates" Replicates="3" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Copy of Figure3b_HNAkinetics_un-extended_primer_reps1-3</Title>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title>Time</Title>
+<Subcolumn>
+<d>0</d>
+<d>1</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+<d>240</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title>Time</Title>
+<Subcolumn>
+<d>0</d>
+<d>1</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+<d>240</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="264" Decimals="9" Subcolumns="3">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>0</d>
+<d>-0.15964</d>
+<d>-0.49208</d>
+<d>-0.20157</d>
+<d>-0.24655</d>
+<d>-0.21683</d>
+<d>-1.02502</d>
+<d/>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0.094112755</d>
+<d>0.01930975</d>
+<d>-0.081023933</d>
+<d>-0.07876635</d>
+<d>-0.015984182</d>
+<d>-0.281490288</d>
+<d>-1.59165702</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>-0.117721602</d>
+<d>-0.190363605</d>
+<d>-0.407776154</d>
+<d>-0.345031518</d>
+<d>-0.35625282</d>
+<d/>
+<d>-1.026878392</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="264" Decimals="6" Subcolumns="3">
+<Title>P562del</Title>
+<Subcolumn>
+<d>0</d>
+<d>-0.06639</d>
+<d>-0.65586</d>
+<d>-0.42464</d>
+<d>-0.00669</d>
+<d>0.005143</d>
+<d>-0.7375</d>
+<d/>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0.009635263</d>
+<d>0.067713619</d>
+<d>0.025837449</d>
+<d>-0.352824731</d>
+<d>0.002581273</d>
+<d>-0.869298598</d>
+<d>-1.178003184</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>-0.117734371</d>
+<d>-0.192074209</d>
+<d>-0.165161127</d>
+<d>-0.214761503</d>
+<d>-0.610061007</d>
+<d/>
+<d>-0.896213873</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="264" Decimals="9" Subcolumns="3">
+<Title>D12A-THR2</Title>
+<Subcolumn>
+<d>0</d>
+<d>-0.15964</d>
+<d>-0.49208</d>
+<d>-0.20157</d>
+<d>-0.24655</d>
+<d>-0.21683</d>
+<d>-1.02502</d>
+<d/>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0.094112755</d>
+<d>0.01930975</d>
+<d>-0.081023933</d>
+<d>-0.07876635</d>
+<d>-0.015984182</d>
+<d>-0.281490288</d>
+<d>-1.59165702</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>-0.117721602</d>
+<d>-0.190363605</d>
+<d>-0.407776154</d>
+<d>-0.345031518</d>
+<d>-0.35625282</d>
+<d/>
+<d>-1.026878392</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="264" Decimals="6" Subcolumns="3">
+<Title>P562del2</Title>
+<Subcolumn>
+<d>0</d>
+<d>-0.06639</d>
+<d>-0.65586</d>
+<d>-0.42464</d>
+<d>-0.00669</d>
+<d>0.005143</d>
+<d>-0.7375</d>
+<d/>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0.009635263</d>
+<d>0.067713619</d>
+<d>0.025837449</d>
+<d>-0.352824731</d>
+<d>0.002581273</d>
+<d>-0.869298598</d>
+<d>-1.178003184</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>-0.117734371</d>
+<d>-0.192074209</d>
+<d>-0.165161127</d>
+<d>-0.214761503</d>
+<d>-0.610061007</d>
+<d/>
+<d>-0.896213873</d>
+</Subcolumn>
+</YColumn>
+</Table>
+
+<!--Analyses, graphs and layouts as compressed binary. Don't edit this part of the file.-->
+
+<Template dt:dt="bin.base64">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
+ce//AQAA//8DAAR5vus=</Template></GraphPadPrismFile>
+	<xsl:template match="ps:Info">
+		<a><xsl:attribute name="name"><xsl:value-of select="@ID"/></xsl:attribute></a>
+		<table border="0">
+			<tr>
+				<td><xsl:apply-templates select="ps:Title"/> </td><td width="20"></td><td width="50%"><b>Notes</b></td>
+			</tr>
+			<tr>
+				<td valign="top">
+					<table BORDER="1" CELLSPACING="0">
+						<tr><th>Constant</th><th>Name</th></tr>
+						<xsl:for-each select="ps:Constant">
+							<tr>
+								<td><xsl:apply-templates select="ps:Name"/> </td>
+								<td><xsl:apply-templates select="ps:Value"/> </td>
+							</tr>
+						</xsl:for-each>
+					</table>
+				</td>
+				<td></td>
+				<td valign="top">
+					<xsl:apply-templates select="ps:Notes"/>
+				</td>
+			</tr>
+		</table>
+	</xsl:template>
+	<xsl:template match="ps:GraphPadPrismFile">
+		<HTML>
+			<BODY>
+				<xsl:variable name="Chars" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
+				<font color="#999999">
+					<p align="center">This file can be opened by <a href="http://www.graphpad.com">GraphPad</a> Prism (version 
+	<xsl:value-of select="@PrismXMLVersion"/> or later). </p></font><hr/>
+         This file contains <xsl:value-of select="count(ps:Table|ps:HugeTable|ps:Table1024)"/> data tables and 
+	<xsl:value-of select="count(ps:Info)+count(ps:Table|ps:HugeTable|ps:Table1024/ps:Info)"/> info tables:
+
+	<dir>
+					<xsl:for-each select="ps:Info">
+						<li>
+							<a>
+								<xsl:attribute name="href">#<xsl:value-of select="@ID"/></xsl:attribute>
+								<xsl:apply-templates select="ps:Title"/>
+							</a>
+						</li>
+					</xsl:for-each>
+					<xsl:for-each select="ps:Table|ps:HugeTable|ps:Table1024">
+						<li>
+							<a>
+								<xsl:attribute name="href">#<xsl:value-of select="@ID"/></xsl:attribute>
+								<xsl:apply-templates select="ps:Title"/>
+							</a>
+							<dir>
+								<xsl:for-each select="ps:Info">
+									<li>
+										<a>
+											<xsl:attribute name="href">#<xsl:value-of select="@ID"/></xsl:attribute>
+											<xsl:apply-templates select="ps:Title"/>
+										</a>
+									</li>
+								</xsl:for-each>
+							</dir>
+						</li>
+					</xsl:for-each>
+				</dir>
+				<hr/>
+				<xsl:apply-templates select="ps:Info"/>
+				<br/>
+				<hr/>
+				<br/>
+				<xsl:for-each select="ps:Table|ps:HugeTable|ps:Table1024">
+					<xsl:apply-templates select="ps:Title"/>
+					<a><xsl:attribute name="name"><xsl:value-of select="@ID"/></xsl:attribute></a>
+					<xsl:variable name="width" select="100 div count (*/ps:Subcolumn)"/>
+					<xsl:variable name="xFormat" select="./@XFormat"/>
+					<xsl:variable name="yFormat" select="./@YFormat"/>
+					<xsl:variable name="nRepl" select="./@replicates"/>
+					<xsl:variable name="isXAdvancedColumn" select="boolean(($xFormat='date' or $xFormat='time' or $xFormat='startenddate') and count(ps:XAdvancedColumn) &gt; 0)"/>
+					<xsl:variable name="isXAdvancedSubcol" select="boolean(($xFormat='startenddate') or count(ps:XAdvancedColumn/ps:Subcolumn/ps:Title) &gt; 0)"/>
+					<xsl:variable name="isXSubcol" select="boolean(($xFormat='error' or count(ps:XColumn/ps:Subcolumn/ps:Title) &gt; 0) and not ($isXAdvancedColumn))"/>
+					<xsl:variable name="isYSubcol" select="boolean(($yFormat='replicates'and ./@Replicates&gt;1) or &#xA;						 ($yFormat!='text'and $yFormat!='replicates') or &#xA;						count(ps:YColumn/ps:Subcolumn/ps:Title)&gt;0)"/>
+					<xsl:variable name="isYSubColNameCustom" select="boolean($isYSubcol and count(ps:SubColumnTitles)&gt;0)"/>
+					<TABLE BORDER="1" CELLSPACING="0">
+						<TR>
+							<xsl:for-each select="ps:RowTitlesColumn">
+								<TD align="center">
+									<xsl:attribute name="rowspan">
+										<xsl:if test="$isXSubcol or $isXAdvancedSubcol or $isYSubcol">2</xsl:if>
+									</xsl:attribute><BR/>
+								</TD>
+							</xsl:for-each>
+							<xsl:if test="not ($isXAdvancedColumn)">
+								<xsl:for-each select="ps:XColumn">
+									<TD align="center">
+										<xsl:attribute name="rowspan">
+											<xsl:if test="$isYSubcol and not($isXSubcol)">2</xsl:if>
+										</xsl:attribute>
+										<xsl:attribute name="colspan"><xsl:value-of select="./@Subcolumns"/></xsl:attribute>
+						 
+						<xsl:apply-templates select="ps:Title"/>
+										<xsl:if test="count(ps:Title)=0 or ps:Title=''">X-Title</xsl:if>				
+						 
+					</TD>
+								</xsl:for-each>
+							</xsl:if>
+							<xsl:if test="$isXAdvancedColumn">
+								<xsl:for-each select="ps:XAdvancedColumn">
+									<TD align="center">
+										<xsl:attribute name="rowspan">
+											<xsl:if test="$isYSubcol and not($isXAdvancedSubcol)">2</xsl:if>
+										</xsl:attribute>
+										<xsl:attribute name="colspan"><xsl:value-of select="./@Subcolumns"/></xsl:attribute>
+						 
+						<xsl:apply-templates select="ps:Title"/>
+										<xsl:if test="count(ps:Title)=0 or ps:Title=''">X-Title</xsl:if>				
+						 
+					</TD>
+								</xsl:for-each>
+							</xsl:if>
+							<xsl:for-each select="ps:YColumn">
+								<xsl:variable name="DefColName2" select="(position()-1) mod 26"/>
+								<xsl:variable name="DefColName1" select="(position()-1-$DefColName2) div 26"/>
+								<TD align="center">
+									<xsl:attribute name="colspan"><xsl:value-of select="./@Subcolumns"/></xsl:attribute>
+									<xsl:attribute name="rowspan">
+										<xsl:if test="($isXSubcol or $isXAdvancedSubcol) and not($isYSubcol)">2</xsl:if>
+									</xsl:attribute>
+					 
+					<xsl:apply-templates select="ps:Title"/>
+									<xsl:if test="count(ps:Title)=0 or ps:Title=''">
+										<xsl:value-of select="'Data Set-'"/>
+										<xsl:if test="$DefColName1 &gt; 0">
+											<xsl:value-of select="substring($Chars,$DefColName1,1)"/>
+										</xsl:if>
+										<xsl:value-of select="substring($Chars,$DefColName2+1,1)"/>
+									</xsl:if>
+					 				
+	   			</TD>
+							</xsl:for-each>
+						</TR>
+						<xsl:if test="$isXSubcol or $isXAdvancedSubcol or $isYSubcol">
+							<TR>
+								<xsl:if test="$isXSubcol">
+									<xsl:for-each select="ps:XColumn">
+										<xsl:for-each select="ps:Subcolumn">
+											<TD align="center"> 
+					 
+					<xsl:apply-templates select="ps:Title"/>
+												<xsl:if test="count(ps:Title)=0 or ps:Title=''">
+													<xsl:choose>
+														<xsl:when test="position()=1"><B>X</B></xsl:when>
+														<xsl:when test="position()=2"><B>Err.Bar</B></xsl:when>
+													</xsl:choose>
+												</xsl:if>				
+					 
+				</TD>
+										</xsl:for-each>
+									</xsl:for-each>
+								</xsl:if>
+								<xsl:if test="$isXAdvancedSubcol">
+									<xsl:for-each select="ps:XAdvancedColumn">
+										<xsl:for-each select="ps:Subcolumn">
+											<TD align="center"> 
+					 
+					<xsl:apply-templates select="ps:Title"/>
+												<xsl:if test="count(ps:Title)=0 or ps:Title=''">
+													<xsl:choose>
+														<xsl:when test="position()=1"><B>Starting Date</B></xsl:when>
+														<xsl:when test="position()=2"><B>Ending Date</B></xsl:when>
+													</xsl:choose>
+												</xsl:if>				
+					 
+				</TD>
+										</xsl:for-each>
+									</xsl:for-each>
+								</xsl:if>
+								<xsl:if test="$isYSubcol">
+									<xsl:for-each select="ps:YColumn">
+										<xsl:variable name="DefColName2" select="(position()-1) mod 26"/>
+										<xsl:variable name="DefColName1" select="(position()-1-$DefColName2) div 26"/>
+										<xsl:variable name="YColumnNdx" select="position()"/>
+										<xsl:for-each select="ps:Subcolumn">
+											<TD align="center">
+					 
+					<xsl:apply-templates select="ps:Title"/>
+												<xsl:if test="count(ps:Title)=0 or ps:Title=''">
+													<xsl:if test="$yFormat='replicates' or $yFormat='text'">
+														<B>
+															<xsl:if test="$DefColName1 &gt; 0">
+																<xsl:value-of select="substring($Chars,$DefColName1,1)"/>
+															</xsl:if>
+															<xsl:choose>
+																<xsl:when test="$isYSubColNameCustom">
+																	<xsl:variable name="subColCustomNamePos" select="position()"/>
+																	<xsl:for-each select="../../ps:SubColumnTitles/ps:Subcolumn">
+																		<xsl:if test="position()=$subColCustomNamePos">
+																			<xsl:choose>
+																				<xsl:when test="../../ps:SubColumnTitles/@OwnSet='1'">
+																					<xsl:variable name="DItemsCount" select="count(./ps:d)"/>
+																					<xsl:choose>
+																						<xsl:when test="$DItemsCount&lt;$YColumnNdx or ./ps:d[$YColumnNdx]=''">
+																							<xsl:value-of select="substring($Chars,$DefColName2+1,1)"/>:Y<xsl:value-of select="position()"/>
+																						</xsl:when>
+																						<xsl:otherwise>
+																							<xsl:apply-templates select="./ps:d[$YColumnNdx]"/>
+																						</xsl:otherwise>
+																					</xsl:choose>
+																				</xsl:when>
+																				<xsl:when test="../../ps:SubColumnTitles/@OwnSet='0'">
+																					<xsl:variable name="DItemsCount" select="count(./ps:d)"/>
+																					<xsl:choose>
+																						<xsl:when test="$DItemsCount&lt;1 or ./ps:d[1]=''">
+																							<xsl:value-of select="substring($Chars,$DefColName2+1,1)"/>:Y<xsl:value-of select="position()"/>
+																						</xsl:when>
+																						<xsl:otherwise>
+																							<xsl:apply-templates select="./ps:d[1]"/>
+																						</xsl:otherwise>
+																					</xsl:choose>
+																				</xsl:when>
+																				<xsl:otherwise>
+																					<xsl:apply-templates select="ps:d"/>
+																					<xsl:if test="ps:d=''">
+																						<xsl:value-of select="substring($Chars,$DefColName2+1,1)"/>:Y<xsl:value-of select="position()"/>
+																					</xsl:if>
+																				</xsl:otherwise>
+																			</xsl:choose>
+																		</xsl:if>
+																	</xsl:for-each>
+																</xsl:when>
+																<xsl:otherwise>
+																	<xsl:value-of select="substring($Chars,$DefColName2+1,1)"/>:Y<xsl:value-of select="position()"/>
+																</xsl:otherwise>
+															</xsl:choose>
+														</B>
+													</xsl:if>
+													<xsl:if test="$yFormat!='replicates' and $yFormat!='text'">
+														<xsl:if test="not($yFormat='replicates' or $yFormat='text')">
+															<xsl:if test="position()=1"><B>Mean</B></xsl:if>
+															<xsl:if test="position()!=1">
+																<xsl:choose>
+																	<xsl:when test="$yFormat='SD'">
+																		<B>SD</B>
+																	</xsl:when>
+																	<xsl:when test="$yFormat='SE'">
+																		<B>SEM</B>
+																	</xsl:when>
+																	<xsl:when test="$yFormat='CV'">
+																		<B>%CV</B>
+																	</xsl:when>
+																	<xsl:when test="$yFormat='SDN'">
+																		<xsl:if test="position()=2"><B>SD</B></xsl:if>
+																		<xsl:if test="position()=3"><B>N</B></xsl:if>
+																	</xsl:when>
+																	<xsl:when test="$yFormat='SEN'">
+																		<xsl:if test="position()=2"><B>SEM</B></xsl:if>
+																		<xsl:if test="position()=3"><B>N</B></xsl:if>
+																	</xsl:when>
+																	<xsl:when test="$yFormat='CVN'">
+																		<xsl:if test="position()=2"><B>%CV</B></xsl:if>
+																		<xsl:if test="position()=3"><B>N</B></xsl:if>
+																	</xsl:when>
+																	<xsl:when test="$yFormat='low-high'">
+																		<xsl:if test="position()=2"><B>+Error</B></xsl:if>
+																		<xsl:if test="position()=3"><B>-Error</B></xsl:if>
+																	</xsl:when>
+																	<xsl:when test="$yFormat='upper-lower-limits'">
+																		<xsl:if test="position()=2"><B>UpperLimit</B></xsl:if>
+																		<xsl:if test="position()=3"><B>LowerLimit</B></xsl:if>
+																	</xsl:when>
+																</xsl:choose>
+															</xsl:if>
+														</xsl:if>
+													</xsl:if>
+												</xsl:if>
+					 				
+	   			</TD>
+										</xsl:for-each>
+									</xsl:for-each>
+								</xsl:if>
+							</TR>
+						</xsl:if>
+						<TR>
+							<xsl:for-each select="ps:RowTitlesColumn/ps:Subcolumn">
+								<td valign="top" nowrap="1">
+									<xsl:attribute name="width"><xsl:value-of select="$width"/>%</xsl:attribute>
+									<xsl:apply-templates select="ps:d"/>
+									<xsl:if test="count(ps:d)=0"><br/></xsl:if>
+								</td>
+							</xsl:for-each>
+							<xsl:if test="not($isXAdvancedColumn)">
+								<xsl:for-each select="ps:XColumn/ps:Subcolumn">
+									<td valign="top" nowrap="1">
+										<xsl:attribute name="width"><xsl:value-of select="$width"/>%</xsl:attribute>
+										<xsl:apply-templates select="ps:d"/>
+										<xsl:if test="count(ps:d)=0"><br/></xsl:if>
+									</td>
+								</xsl:for-each>
+							</xsl:if>
+							<xsl:if test="$isXAdvancedColumn">
+								<xsl:for-each select="ps:XAdvancedColumn/ps:Subcolumn">
+									<td valign="top" nowrap="1">
+										<xsl:attribute name="width"><xsl:value-of select="$width"/>%</xsl:attribute>
+										<xsl:apply-templates select="ps:d"/>
+										<xsl:if test="count(ps:d)=0"><br/></xsl:if>
+									</td>
+								</xsl:for-each>
+							</xsl:if>
+							<xsl:for-each select="ps:YColumn/ps:Subcolumn">
+								<td valign="top" nowrap="1">
+									<xsl:attribute name="width"><xsl:value-of select="$width"/>%</xsl:attribute>
+									<xsl:apply-templates select="ps:d"/>
+									<xsl:if test="count(ps:d)=0"><br/></xsl:if>
+								</td>
+							</xsl:for-each>
+						</TR>
+					</TABLE>
+					<br/>
+					<xsl:apply-templates select="ps:Info"/>
+					<br/>
+					<hr/>
+					<br/>
+				</xsl:for-each>
+			</BODY>
+		</HTML>
+	</xsl:template>
+	<!--<xsl:template match="ps:d">
+	<xsl:choose>
+		<xsl:when test="@Excluded and string-length(text())" >
+		    <font color="#0000ee">
+	      		<xsl:apply-templates select="node()"/>*		
+		    </font>
+		</xsl:when>
+	    <xsl:otherwise>
+			<xsl:apply-templates select="node()"/>
+		</xsl:otherwise>
+	</xsl:choose>
+	<xsl:if test="position()!=last()"><br/></xsl:if>
+</xsl:template>-->
+	<xsl:template match="ps:d">
+		<xsl:choose>
+			<xsl:when test="@Excluded and string-length(text())">
+				<xsl:choose>
+					<xsl:when test="../../../@EVFormat='AsteriskAfterNumber'">
+						<font color="#0000ee">
+							<xsl:apply-templates select="node()"/>*
+						</font>
+					</xsl:when>
+					<xsl:when test="../../../@EVFormat='Blank'">
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:apply-templates select="node()"/>
+					</xsl:otherwise>
+				</xsl:choose>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:apply-templates select="node()"/>
+			</xsl:otherwise>
+		</xsl:choose>
+		<xsl:if test="position()!=last()"><br/></xsl:if>
+	</xsl:template>
+	<xsl:template match="ps:Title">
+		<b><xsl:apply-templates select="node()"/></b>
+	</xsl:template>
+	<xsl:template match="node()">
+		<xsl:param name="DoNotUseBR" select="0"/>
+		<xsl:choose>
+			<xsl:when test="name()='BR' and $DoNotUseBR=1">
+				<div/>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:copy>
+					<xsl:apply-templates select="node()">
+						<xsl:with-param name="DoNotUseBR" select="$DoNotUseBR"/>
+					</xsl:apply-templates>
+				</xsl:copy>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+	<xsl:template match="ps:Font">
+		<xsl:param name="DoNotUseBR" select="0"/>
+		<font>
+			<xsl:if test="@Size">
+				<xsl:attribute name="STYLE">font-size:<xsl:value-of select="@Size"/>pt</xsl:attribute>
+			</xsl:if>
+			<xsl:copy-of select="@*"/>
+			<xsl:apply-templates select="node()">
+				<xsl:with-param name="DoNotUseBR" select="$DoNotUseBR"/>
+			</xsl:apply-templates>
+		</font>
+	</xsl:template>
+	<xsl:template match="ps:LineStyles">
+		<div>
+			<xsl:if test="@align">
+				<xsl:attribute name="align"><xsl:value-of select="@align"/></xsl:attribute>
+			</xsl:if>
+			<xsl:if test="@spacing">
+				<xsl:variable name="sp" select="@spacing"/>
+				<xsl:attribute name="style">margin-bottom:<xsl:value-of select="(@spacing -100) div 5"/>pt</xsl:attribute>
+			</xsl:if>
+			<xsl:apply-templates select="node()">
+				<xsl:with-param name="DoNotUseBR" select="1"/>
+			</xsl:apply-templates>
+		</div>
+	</xsl:template>
+	<xsl:template match="ps:Notes">
+		<xsl:apply-templates select="node()">
+			<xsl:with-param name="DoNotUseBR" select="1"/>
+		</xsl:apply-templates>
+	</xsl:template>
+	<xsl:template match="/">
+		<HTML>
+			<BODY>
+				<xsl:apply-templates select="//ps:GraphPadPrismFile"/>
+			</BODY>
+		</HTML>
+	</xsl:template>
+</xsl:stylesheet>

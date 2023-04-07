@@ -1,0 +1,2595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GraphPadPrismFile xmlns="http://graphpad.com/prism/Prism.htm" PrismXMLVersion="5.00">
+<Created>
+<OriginalVersion CreatedByProgram="GraphPad Prism" CreatedByVersion="9.4.1.681" Login="PH" DateTime="2023-04-06T18:38:44+01:00"/>
+<MostRecentVersion CreatedByProgram="GraphPad Prism" CreatedByVersion="9.4.1.681" Login="vbbpi" DateTime="2023-04-07T11:54:17+01:00"/>
+</Created>
+<InfoSequence>
+<Ref ID="Info0" Selected="1"/>
+</InfoSequence>
+<Info ID="Info0">
+<Title>Project info 1</Title>
+<Notes/>
+<Constant><Name>Experiment Date</Name><Value>2023-04-06</Value></Constant>
+<Constant><Name>Experiment ID</Name><Value/></Constant>
+<Constant><Name>Notebook ID</Name><Value/></Constant>
+<Constant><Name>Project</Name><Value/></Constant>
+<Constant><Name>Experimenter</Name><Value/></Constant>
+<Constant><Name>Protocol</Name><Value/></Constant>
+</Info>
+
+<TableSequence>
+<Ref ID="Table0"/>
+<Ref ID="Table2"/>
+<Ref ID="Table8"/>
+<Ref ID="Table9"/>
+<Ref ID="Table3"/>
+<Ref ID="Table4"/>
+<Ref ID="Table14"/>
+<Ref ID="Table12"/>
+<Ref ID="Table13"/>
+<Ref ID="Table5"/>
+<Ref ID="Table7"/>
+<Ref ID="Table6"/>
+<Ref ID="Table15"/>
+<Ref ID="Table16"/>
+<Ref ID="Table17"/>
+<Ref ID="Table18"/>
+<Ref ID="Table20"/>
+<Ref ID="Table21" Selected="1"/>
+<Ref ID="Table22"/>
+</TableSequence>
+<Table ID="Table0" XFormat="numbers" YFormat="replicates" Replicates="3" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Data_Figure4b_EMSA_0.0225ug_rep1</Title>
+<RowTitlesColumn Width="18">
+<Subcolumn/>
+</RowTitlesColumn>
+<SubColumnTitles OwnSet="0">
+<Subcolumn>
+<d><TextAlign align="Center">Unbound</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Intermediate</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Bound</TextAlign></d>
+</Subcolumn>
+</SubColumnTitles>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>2</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>2</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="237" Decimals="0" Subcolumns="3">
+<Title>Phi29(wt)</Title>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+</Subcolumn>
+<Subcolumn>
+<d>48482,12</d>
+<d>48328,49</d>
+<d>52746,12</d>
+<d>59742,04</d>
+<d>96524,81</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="237" Decimals="3" Subcolumns="3">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>5875,844</d>
+<d>24569,25</d>
+<d>26882,73</d>
+<d>24108,07</d>
+<d>41316,81</d>
+</Subcolumn>
+<Subcolumn>
+<d>7731,589</d>
+<d>16349,572</d>
+<d>17274,643</d>
+<d>20088,593</d>
+<d>27196,877</d>
+</Subcolumn>
+<Subcolumn>
+<d>3287,711</d>
+<d>3396,296</d>
+<d>2485,397</d>
+<d>2367,296</d>
+<d>6477,459</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="237" Decimals="8" Subcolumns="3">
+<Title>P562del</Title>
+<Subcolumn>
+<d>8177,927</d>
+<d>38550,51</d>
+<d>50659,88</d>
+<d>54641,86</d>
+<d>72971,18</d>
+</Subcolumn>
+<Subcolumn>
+<d>19103,44</d>
+<d>37736,17</d>
+<d>41933,19</d>
+<d>59213,33</d>
+<d>62173,41</d>
+</Subcolumn>
+<Subcolumn>
+<d>8828,815</d>
+<d>4680,489</d>
+<d>2853,61</d>
+<d>2771,903</d>
+<d>3907,317</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table2" XFormat="numbers" YFormat="replicates" Replicates="3" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Data_Figure4b_EMSA_0.0225ug_rep2</Title>
+<RowTitlesColumn Width="18">
+<Subcolumn/>
+</RowTitlesColumn>
+<SubColumnTitles OwnSet="0">
+<Subcolumn>
+<d><TextAlign align="Center">Unbound</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Intermediate</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Bound</TextAlign></d>
+</Subcolumn>
+</SubColumnTitles>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>2</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>2</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="237" Decimals="0" Subcolumns="3">
+<Title>Phi29(wt)</Title>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+</Subcolumn>
+<Subcolumn>
+<d>54501,48</d>
+<d>69682,89</d>
+<d>65315,84</d>
+<d>62354,12</d>
+<d>71625,22</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="237" Decimals="3" Subcolumns="3">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>46945,48</d>
+<d>38489,87</d>
+<d>38709,09</d>
+<d>35539,14</d>
+<d>29062,09</d>
+</Subcolumn>
+<Subcolumn>
+<d>31600,35</d>
+<d>29939,6</d>
+<d>29749,3</d>
+<d>22876,04</d>
+<d>21595,61</d>
+</Subcolumn>
+<Subcolumn>
+<d>2270,326</d>
+<d>3885,368</d>
+<d>2577,79</d>
+<d>4019,075</d>
+<d>8990,815</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="237" Decimals="8" Subcolumns="3">
+<Title>P562del</Title>
+<Subcolumn>
+<d>68631,2</d>
+<d>61770,52</d>
+<d>62722,2</d>
+<d>69730,23</d>
+<d>71988,38</d>
+</Subcolumn>
+<Subcolumn>
+<d>37704,66</d>
+<d>46795,22</d>
+<d>47790,65</d>
+<d>50935,01</d>
+<d>37338,38</d>
+</Subcolumn>
+<Subcolumn>
+<d>2618,347</d>
+<d>2604,104</d>
+<d>1332,619</d>
+<d>1567,79</d>
+<d>4255,966</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table8" XFormat="numbers" YFormat="replicates" Replicates="3" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Data_Figure4c_EMSA_0.0015ug_rep1</Title>
+<RowTitlesColumn Width="18">
+<Subcolumn/>
+</RowTitlesColumn>
+<SubColumnTitles OwnSet="0">
+<Subcolumn>
+<d><TextAlign align="Center">Unbound</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Intermediate</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Bound</TextAlign></d>
+</Subcolumn>
+</SubColumnTitles>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>2</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>2</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="237" Decimals="0" Subcolumns="3">
+<Title>Phi29(wt)</Title>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+</Subcolumn>
+<Subcolumn>
+<d>45646,935</d>
+<d>28009,446</d>
+<d>15105,421</d>
+<d>24202,889</d>
+<d>28549,609</d>
+</Subcolumn>
+<Subcolumn>
+<d>39452,91</d>
+<d>34647,03</d>
+<d>30122,56</d>
+<d>35032,38</d>
+<d>53954,3</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="237" Decimals="3" Subcolumns="3">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>33238,13</d>
+<d>35202,26</d>
+<d>28180,99</d>
+<d>27751</d>
+<d>29703,89</d>
+</Subcolumn>
+<Subcolumn>
+<d>24885,07</d>
+<d>24924,342</d>
+<d>26675,605</d>
+<d>24162,655</d>
+<d>45505,952</d>
+</Subcolumn>
+<Subcolumn>
+<d>1239,77</d>
+<d>2400,79</d>
+<d>2640,79</d>
+<d>2269,719</d>
+<d>5615,619</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="237" Decimals="8" Subcolumns="3">
+<Title>P562del</Title>
+<Subcolumn>
+<d>58488,34</d>
+<d>45044,52</d>
+<d>44819,3</d>
+<d>46167,53</d>
+<d>49722,14</d>
+</Subcolumn>
+<Subcolumn>
+<d>23672,756</d>
+<d>32158,525</d>
+<d>36074,203</d>
+<d>30983,546</d>
+<d>57355,822</d>
+</Subcolumn>
+<Subcolumn>
+<d>906,234</d>
+<d>1398,719</d>
+<d>683,991</d>
+<d>784,506</d>
+<d>1808,92</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table9" XFormat="numbers" YFormat="replicates" Replicates="3" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Data_Figure4c_EMSA_0.03ug_rep1</Title>
+<RowTitlesColumn Width="18">
+<Subcolumn/>
+</RowTitlesColumn>
+<SubColumnTitles OwnSet="0">
+<Subcolumn>
+<d><TextAlign align="Center">Unbound</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Intermediate</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Bound</TextAlign></d>
+</Subcolumn>
+</SubColumnTitles>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="237" Decimals="0" Subcolumns="3">
+<Title>Phi29(wt)</Title>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+</Subcolumn>
+<Subcolumn>
+<d>18930,78</d>
+<d>14450,15</d>
+<d>10070,59</d>
+<d>9062,865</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="237" Decimals="3" Subcolumns="3">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+</Subcolumn>
+<Subcolumn>
+<d>33510,153</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+</Subcolumn>
+<Subcolumn>
+<d>8260,56</d>
+<d>21044,61</d>
+<d>11869,74</d>
+<d>14852,22</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="237" Decimals="8" Subcolumns="3">
+<Title>P562del</Title>
+<Subcolumn>
+<d>73131,05</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+</Subcolumn>
+<Subcolumn>
+<d>64719,734</d>
+<d>5399,229</d>
+<d>0</d>
+<d>0</d>
+</Subcolumn>
+<Subcolumn>
+<d>5725,388</d>
+<d>34538,72</d>
+<d>24500,4</d>
+<d>21373,4</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table3" XFormat="numbers" YFormat="replicates" Replicates="2" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Figure4b_percentage_intermediate_EMSA_0.0225ug</Title>
+<RowTitlesColumn Width="19">
+<Subcolumn/>
+</RowTitlesColumn>
+<SubColumnTitles OwnSet="0">
+<Subcolumn>
+<d><TextAlign align="Center">Fraction of Intermediate Complex</TextAlign></d>
+<d/>
+<d>Fraction of Intermediate Complex</d>
+<d>Fraction of Intermediate Complex</d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Fraction of Intermediate Complex</TextAlign></d>
+<d/>
+<d>Fraction of Intermediate Complex</d>
+<d>Fraction of Intermediate Complex</d>
+</Subcolumn>
+</SubColumnTitles>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>2</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>2</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="248" Decimals="6" Subcolumns="2">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>38,50733</d>
+<d>32,84697</d>
+<d>29,49778</d>
+<d>37,83476</d>
+<d>42,80911</d>
+</Subcolumn>
+<Subcolumn>
+<d>36,66845</d>
+<d>37,81958</d>
+<d>38,49798</d>
+<d>36,82119</d>
+<d>44,30146</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="248" Decimals="8" Subcolumns="2">
+<Title>P562del</Title>
+<Subcolumn>
+<d>47,14414</d>
+<d>41,15238</d>
+<d>37,51806</d>
+<d>46,97053</d>
+<d>49,7726</d>
+</Subcolumn>
+<Subcolumn>
+<d>34,69354</d>
+<d>39,09962</d>
+<d>39,99235</d>
+<d>38,18885</d>
+<d>37,97399</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="248" Decimals="6" Subcolumns="2">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>38,50733</d>
+<d>32,84697</d>
+<d>29,49778</d>
+<d>37,83476</d>
+<d>42,80911</d>
+</Subcolumn>
+<Subcolumn>
+<d>36,66845</d>
+<d>37,81958</d>
+<d>38,49798</d>
+<d>36,82119</d>
+<d>44,30146</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="248" Decimals="5" Subcolumns="2">
+<Title>P562del</Title>
+<Subcolumn>
+<d>47,14414</d>
+<d>41,15238</d>
+<d>37,51806</d>
+<d>46,97053</d>
+<d>49,7726</d>
+</Subcolumn>
+<Subcolumn>
+<d>34,69354</d>
+<d>39,09962</d>
+<d>39,99235</d>
+<d>38,18885</d>
+<d>37,97399</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table4" XFormat="numbers" YFormat="replicates" Replicates="2" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Figure4b_percentage_bound_EMSA_0.0225ug</Title>
+<RowTitlesColumn Width="19">
+<Subcolumn/>
+</RowTitlesColumn>
+<SubColumnTitles OwnSet="0">
+<Subcolumn>
+<d><TextAlign align="Center">Fraction of Stable Complex</TextAlign></d>
+<d/>
+<d>Fraction of Stable Complex</d>
+<d>Fraction of Stable Complex</d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Fraction of Stable Complex</TextAlign></d>
+<d/>
+<d>Fraction of Stable Complex</d>
+<d>Fraction of Stable Complex</d>
+</Subcolumn>
+</SubColumnTitles>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>2</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>2</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="88" Decimals="6" Subcolumns="2">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>14,79853</d>
+<d>8,074651</d>
+<d>4,505629</d>
+<d>5,67805</d>
+<d>8,10454</d>
+</Subcolumn>
+<Subcolumn>
+<d>3,872328</d>
+<d>7,706298</d>
+<d>6,281373</d>
+<d>6,965878</d>
+<d>13,30946</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="88" Decimals="8" Subcolumns="2">
+<Title>P562del</Title>
+<Subcolumn>
+<d>23,42129</d>
+<d>6,629496</d>
+<d>2,538994</d>
+<d>2,695282</d>
+<d>2,652125</d>
+</Subcolumn>
+<Subcolumn>
+<d>3,831428</d>
+<d>5,054387</d>
+<d>3,836614</d>
+<d>2,671044</d>
+<d>4,446359</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="88" Decimals="6" Subcolumns="2">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>14,79853</d>
+<d>8,074651</d>
+<d>4,505629</d>
+<d>5,67805</d>
+<d>8,10454</d>
+</Subcolumn>
+<Subcolumn>
+<d>3,872328</d>
+<d>7,706298</d>
+<d>6,281373</d>
+<d>6,965878</d>
+<d>13,30946</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="88" Decimals="6" Subcolumns="2">
+<Title>P562del</Title>
+<Subcolumn>
+<d>23,42129</d>
+<d>6,629496</d>
+<d>2,538994</d>
+<d>2,695282</d>
+<d>2,652125</d>
+</Subcolumn>
+<Subcolumn>
+<d>3,831428</d>
+<d>5,054387</d>
+<d>3,836614</d>
+<d>2,671044</d>
+<d>4,446359</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table14" XFormat="numbers" YFormat="upper-lower-limits" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Figure4c_percentage_bound_EMSA_conc</Title>
+<RowTitlesColumn Width="35">
+<Subcolumn>
+<d>D12A-THR</d>
+<d>P562del</d>
+<d>D12A-THR</d>
+<d>P562del</d>
+<d>D12A-THR</d>
+<d>P562del</d>
+</Subcolumn>
+</RowTitlesColumn>
+<SubColumnTitles OwnSet="0">
+<Subcolumn>
+<d><TextAlign align="Center">Fraction of Intermediate Complex</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Fraction of Stable Complex</TextAlign></d>
+</Subcolumn>
+</SubColumnTitles>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title/>
+<Subcolumn>
+<d>1</d>
+<d>2</d>
+<d>3</d>
+<d>4</d>
+<d>5</d>
+<d>6</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>1</d>
+<d>2</d>
+<d>3</d>
+<d>4</d>
+<d>5</d>
+<d>6</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="246" Decimals="9" Subcolumns="3">
+<Title>0 min</Title>
+<Subcolumn>
+<d>6.285042659</d>
+<d>2.240771328</d>
+<d>3.872328099</d>
+<d>3.831427744</d>
+<d>45.99051745</d>
+<d>9.749127023</d>
+</Subcolumn>
+<Subcolumn>
+<d>14.3914153</d>
+<d>5.81683667</d>
+<d>13.309458</d>
+<d>4.4463589</d>
+<d>100</d>
+<d>94.9548053</d>
+</Subcolumn>
+<Subcolumn>
+<d>6.285042659</d>
+<d>2.240771328</d>
+<d>3.872328099</d>
+<d>3.831427744</d>
+<d>45.99051745</d>
+<d>9.749127023</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="246" Decimals="8" Subcolumns="3">
+<Title>15 min</Title>
+<Subcolumn>
+<d>14.3914153</d>
+<d>5.81683667</d>
+<d>13.309458</d>
+<d>4.4463589</d>
+<d>100</d>
+<d>94.9548053</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table12" XFormat="numbers" YFormat="replicates" Replicates="3" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Figure3b_HNAkinetics_un-extended_primer_reps1-3</Title>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title>Time</Title>
+<Subcolumn>
+<d>0</d>
+<d>1</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+<d>240</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title>Time</Title>
+<Subcolumn>
+<d>0</d>
+<d>1</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+<d>240</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="264" Decimals="9" Subcolumns="3">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>0</d>
+<d>-0,15964</d>
+<d>-0,49208</d>
+<d>-0,20157</d>
+<d>-0,24655</d>
+<d>-0,21683</d>
+<d>-1,02502</d>
+<d/>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0,094112755</d>
+<d>0,01930975</d>
+<d>-0,081023933</d>
+<d>-0,07876635</d>
+<d>-0,015984182</d>
+<d>-0,281490288</d>
+<d>-1,59165702</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>-0,117721602</d>
+<d>-0,190363605</d>
+<d>-0,407776154</d>
+<d>-0,345031518</d>
+<d>-0,35625282</d>
+<d/>
+<d>-1,026878392</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="237" Decimals="6" Subcolumns="3">
+<Title>P562del</Title>
+<Subcolumn>
+<d>0</d>
+<d>-0,06639</d>
+<d>-0,65586</d>
+<d>-0,42464</d>
+<d>-0,00669</d>
+<d>0,005143</d>
+<d>-0,7375</d>
+<d/>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0,009635263</d>
+<d>0,067713619</d>
+<d>0,025837449</d>
+<d>-0,352824731</d>
+<d>0,002581273</d>
+<d>-0,869298598</d>
+<d>-1,178003184</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>-0,117734371</d>
+<d>-0,192074209</d>
+<d>-0,165161127</d>
+<d>-0,214761503</d>
+<d>-0,610061007</d>
+<d/>
+<d>-0,896213873</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="264" Decimals="9" Subcolumns="3">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>0</d>
+<d>-0,15964</d>
+<d>-0,49208</d>
+<d>-0,20157</d>
+<d>-0,24655</d>
+<d>-0,21683</d>
+<d>-1,02502</d>
+<d/>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0,094112755</d>
+<d>0,01930975</d>
+<d>-0,081023933</d>
+<d>-0,07876635</d>
+<d>-0,015984182</d>
+<d>-0,281490288</d>
+<d>-1,59165702</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>-0,117721602</d>
+<d>-0,190363605</d>
+<d>-0,407776154</d>
+<d>-0,345031518</d>
+<d>-0,35625282</d>
+<d/>
+<d>-1,026878392</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="264" Decimals="6" Subcolumns="3">
+<Title>P562del</Title>
+<Subcolumn>
+<d>0</d>
+<d>-0,06639</d>
+<d>-0,65586</d>
+<d>-0,42464</d>
+<d>-0,00669</d>
+<d>0,005143</d>
+<d>-0,7375</d>
+<d/>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0,009635263</d>
+<d>0,067713619</d>
+<d>0,025837449</d>
+<d>-0,352824731</d>
+<d>0,002581273</d>
+<d>-0,869298598</d>
+<d>-1,178003184</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>-0,117734371</d>
+<d>-0,192074209</d>
+<d>-0,165161127</d>
+<d>-0,214761503</d>
+<d>-0,610061007</d>
+<d/>
+<d>-0,896213873</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table13" XFormat="numbers" YFormat="replicates" Replicates="3" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Figure3c_HNAsynthesis_extended_primer_reps1-3</Title>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title>Time</Title>
+<Subcolumn>
+<d>0</d>
+<d>1</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+<d>240</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title>Time</Title>
+<Subcolumn>
+<d>0</d>
+<d>1</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+<d>240</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="243" Decimals="9" Subcolumns="3">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>0</d>
+<d>0,246340107</d>
+<d>0,567199102</d>
+<d>0,729356912</d>
+<d>0,687117476</d>
+<d>0,99190003</d>
+<d>1,16381069</d>
+<d/>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>3,240753868</d>
+<d>3,697212162</d>
+<d>3,560615872</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>3,306683</d>
+<d/>
+<d>3,787334</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="243" Decimals="9" Subcolumns="3">
+<Title>P562del</Title>
+<Subcolumn>
+<d>0</d>
+<d>0,406815243</d>
+<d>0,470053452</d>
+<d>1,642471014</d>
+<d>1,636487702</d>
+<d>1,675442302</d>
+<d>1,952835117</d>
+<d/>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>2,87205133</d>
+<d>3,364382873</d>
+<d>3,720124641</d>
+<d>4,425069094</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>3,82316</d>
+<d>3,732103</d>
+<d>3,971357</d>
+<d>4,122858</d>
+<d/>
+<d>4,391139</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="243" Decimals="9" Subcolumns="3">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>0</d>
+<d>0,246340107</d>
+<d>0,567199102</d>
+<d>0,729356912</d>
+<d>0,687117476</d>
+<d>0,99190003</d>
+<d>1,16381069</d>
+<d/>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>3,240753868</d>
+<d>3,697212162</d>
+<d>3,560615872</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>3,306683</d>
+<d/>
+<d>3,787334</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="243" Decimals="9" Subcolumns="3">
+<Title>P562del</Title>
+<Subcolumn>
+<d>0</d>
+<d>0,406815243</d>
+<d>0,470053452</d>
+<d>1,642471014</d>
+<d>1,636487702</d>
+<d>1,675442302</d>
+<d>1,952835117</d>
+<d/>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>0</d>
+<d>2,87205133</d>
+<d>3,364382873</d>
+<d>3,720124641</d>
+<d>4,425069094</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>3,82316</d>
+<d>3,732103</d>
+<d>3,971357</d>
+<d>4,122858</d>
+<d/>
+<d>4,391139</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table5" XFormat="none" TableType="OneWay" ExtTableType="MultipleVariables" EVFormat="AsteriskAfterNumber">
+<Title>Data_Figure3e_HNAsynthesis_conc_rep1</Title>
+<YColumn Width="56" Decimals="3" Subcolumns="1" MVType="Categorical" statDecimals="0" statNumbers="0" statTexts="12">
+<Title>Template</Title>
+<CategoryDictionary>
+<d id="0" firstRowUsage="0" numUsage="8" numExcluded="0">TEMP_N</d>
+<d id="1" firstRowUsage="8" numUsage="2" numExcluded="0">TEMP_N2.7</d>
+<d id="2" firstRowUsage="9" numUsage="2" numExcluded="0">TEMP_N_1T</d>
+</CategoryDictionary>
+<Subcolumn>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N2.7" num="1">TEMP_N2.7</d>
+<d CellType="Text" UserText="TEMP_N_1T" num="2">TEMP_N_1T</d>
+<d CellType="Text" UserText="TEMP_N2.7" num="1">TEMP_N2.7</d>
+<d CellType="Text" UserText="TEMP_N_1T" num="2">TEMP_N_1T</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="44" Decimals="0" Subcolumns="1" MVType="Categorical" statDecimals="0" statNumbers="0" statTexts="12">
+<Title>Mutant</Title>
+<CategoryDictionary>
+<d id="0" firstRowUsage="0" numUsage="6" numExcluded="0">D12A</d>
+<d id="1" firstRowUsage="4" numUsage="6" numExcluded="0">DEL</d>
+</CategoryDictionary>
+<Subcolumn>
+<d CellType="Text" UserText="D12A" num="0">D12A</d>
+<d CellType="Text" UserText="D12A" num="0">D12A</d>
+<d CellType="Text" UserText="D12A" num="0">D12A</d>
+<d CellType="Text" UserText="D12A" num="0">D12A</d>
+<d CellType="Text" UserText="DEL" num="1">DEL</d>
+<d CellType="Text" UserText="DEL" num="1">DEL</d>
+<d CellType="Text" UserText="DEL" num="1">DEL</d>
+<d CellType="Text" UserText="DEL" num="1">DEL</d>
+<d CellType="Text" UserText="D12A" num="0">D12A</d>
+<d CellType="Text" UserText="D12A" num="0">D12A</d>
+<d CellType="Text" UserText="DEL" num="1">DEL</d>
+<d CellType="Text" UserText="DEL" num="1">DEL</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="114" Decimals="2" Subcolumns="1" MVType="Continues" statDecimals="12" statNumbers="0" statTexts="0">
+<Title>Concentration (uM)</Title>
+<Subcolumn>
+<d CellType="Decimal" UserText="0.45">0,45</d>
+<d CellType="Decimal" UserText="0.22">0,22</d>
+<d CellType="Decimal" UserText="0.11">0,11</d>
+<d CellType="Decimal" UserText="0.06">0,06</d>
+<d CellType="Decimal" UserText="0.45">0,45</d>
+<d CellType="Decimal" UserText="0.22">0,22</d>
+<d CellType="Decimal" UserText="0.11">0,11</d>
+<d CellType="Decimal" UserText="0.06">0,06</d>
+<d CellType="Decimal" UserText="0.22">0,22</d>
+<d CellType="Decimal" UserText="0.22">0,22</d>
+<d CellType="Decimal" UserText="0.22">0,22</d>
+<d CellType="Decimal" UserText="0.22">0,22</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="67" Decimals="3" Subcolumns="1" MVType="Continues" statDecimals="12" statNumbers="0" statTexts="0">
+<Title>Primer</Title>
+<Subcolumn>
+<d CellType="Decimal" UserText="56247.973">56247,973</d>
+<d CellType="Decimal" UserText="61607.789">61607,789</d>
+<d CellType="Decimal" UserText="69811.538">69811,538</d>
+<d CellType="Decimal" UserText="73590.266">73590,266</d>
+<d CellType="Decimal" UserText="6056.489">6056,489</d>
+<d CellType="Decimal" UserText="15645.271">15645,271</d>
+<d CellType="Decimal" UserText="36650.233">36650,233</d>
+<d CellType="Decimal" UserText="55307.375">55307,375</d>
+<d CellType="Decimal" UserText="72091.86">72091,86</d>
+<d CellType="Decimal" UserText="71495.103">71495,103</d>
+<d CellType="Decimal" UserText="55342.546">55342,546</d>
+<d CellType="Decimal" UserText="30737.99">30737,99</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="106" Decimals="3" Subcolumns="1" MVType="Continues" statDecimals="12" statNumbers="0" statTexts="0">
+<Title>Extended product</Title>
+<Subcolumn>
+<d CellType="Decimal" UserText="18838.597">18838,597</d>
+<d CellType="Decimal" UserText="24472.747">24472,747</d>
+<d CellType="Decimal" UserText="19628.425">19628,425</d>
+<d CellType="Decimal" UserText="9179.229">9179,229</d>
+<d CellType="Decimal" UserText="28295.425">28295,425</d>
+<d CellType="Decimal" UserText="27499.475">27499,475</d>
+<d CellType="Decimal" UserText="21617.404">21617,404</d>
+<d CellType="Decimal" UserText="11767.028">11767,028</d>
+<d CellType="Decimal" UserText="25426.86">25426,86</d>
+<d CellType="Decimal" UserText="33754.032">33754,032</d>
+<d CellType="Decimal" UserText="30097.475">30097,475</d>
+<d CellType="Decimal" UserText="31898.688">31898,688</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="8" Subcolumns="1" MVType="Continues" statDecimals="12" statNumbers="0" statTexts="0">
+<Title>%Extended</Title>
+<Subcolumn>
+<d CellType="Decimal" UserText="25.08916974">25,08916974</d>
+<d CellType="Decimal" UserText="28.4300588">28,4300588</d>
+<d CellType="Decimal" UserText="21.94592254">21,94592254</d>
+<d CellType="Decimal" UserText="11.09011116">11,09011116</d>
+<d CellType="Decimal" UserText="82.36928225">82,36928225</d>
+<d CellType="Decimal" UserText="63.73771444">63,73771444</d>
+<d CellType="Decimal" UserText="37.10018994">37,10018994</d>
+<d CellType="Decimal" UserText="17.54324671">17,54324671</d>
+<d CellType="Decimal" UserText="26.07382459">26,07382459</d>
+<d CellType="Decimal" UserText="32.07060277">32,07060277</d>
+<d CellType="Decimal" UserText="35.2264368">35,2264368</d>
+<d CellType="Decimal" UserText="50.92653221">50,92653221</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table7" XFormat="none" TableType="OneWay" ExtTableType="MultipleVariables" EVFormat="AsteriskAfterNumber">
+<Title>Data_Figure3e_HNAsynthesis_conc_rep2</Title>
+<YColumn Width="56" Decimals="3" Subcolumns="1" MVType="Categorical" statDecimals="0" statNumbers="0" statTexts="12">
+<Title>Template</Title>
+<CategoryDictionary>
+<d id="0" firstRowUsage="0" numUsage="8" numExcluded="0">TEMP_N</d>
+<d id="1" firstRowUsage="8" numUsage="2" numExcluded="0">TEMP_N2.7</d>
+<d id="2" firstRowUsage="9" numUsage="2" numExcluded="0">TEMP_N_1T</d>
+</CategoryDictionary>
+<Subcolumn>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N" num="0">TEMP_N</d>
+<d CellType="Text" UserText="TEMP_N2.7" num="1">TEMP_N2.7</d>
+<d CellType="Text" UserText="TEMP_N_1T" num="2">TEMP_N_1T</d>
+<d CellType="Text" UserText="TEMP_N2.7" num="1">TEMP_N2.7</d>
+<d CellType="Text" UserText="TEMP_N_1T" num="2">TEMP_N_1T</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="44" Decimals="0" Subcolumns="1" MVType="Categorical" statDecimals="0" statNumbers="0" statTexts="12">
+<Title>Mutant</Title>
+<CategoryDictionary>
+<d id="0" firstRowUsage="0" numUsage="6" numExcluded="0">D12A</d>
+<d id="1" firstRowUsage="4" numUsage="6" numExcluded="0">DEL</d>
+</CategoryDictionary>
+<Subcolumn>
+<d CellType="Text" UserText="D12A" num="0">D12A</d>
+<d CellType="Text" UserText="D12A" num="0">D12A</d>
+<d CellType="Text" UserText="D12A" num="0">D12A</d>
+<d CellType="Text" UserText="D12A" num="0">D12A</d>
+<d CellType="Text" UserText="DEL" num="1">DEL</d>
+<d CellType="Text" UserText="DEL" num="1">DEL</d>
+<d CellType="Text" UserText="DEL" num="1">DEL</d>
+<d CellType="Text" UserText="DEL" num="1">DEL</d>
+<d CellType="Text" UserText="D12A" num="0">D12A</d>
+<d CellType="Text" UserText="D12A" num="0">D12A</d>
+<d CellType="Text" UserText="DEL" num="1">DEL</d>
+<d CellType="Text" UserText="DEL" num="1">DEL</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="114" Decimals="2" Subcolumns="1" MVType="Continues" statDecimals="12" statNumbers="0" statTexts="0">
+<Title>Concentration (uM)</Title>
+<Subcolumn>
+<d CellType="Decimal" UserText="0.45">0,45</d>
+<d CellType="Decimal" UserText="0.22">0,22</d>
+<d CellType="Decimal" UserText="0.11">0,11</d>
+<d CellType="Decimal" UserText="0.06">0,06</d>
+<d CellType="Decimal" UserText="0.45">0,45</d>
+<d CellType="Decimal" UserText="0.22">0,22</d>
+<d CellType="Decimal" UserText="0.11">0,11</d>
+<d CellType="Decimal" UserText="0.06">0,06</d>
+<d CellType="Decimal" UserText="0.22">0,22</d>
+<d CellType="Decimal" UserText="0.22">0,22</d>
+<d CellType="Decimal" UserText="0.22">0,22</d>
+<d CellType="Decimal" UserText="0.22">0,22</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="67" Decimals="3" Subcolumns="1" MVType="Continues" statDecimals="12" statNumbers="0" statTexts="0">
+<Title>Primer</Title>
+<Subcolumn>
+<d CellType="Decimal" UserText="50886.78">50886,78</d>
+<d CellType="Decimal" UserText="67469.73">67469,73</d>
+<d CellType="Decimal" UserText="74714.32">74714,32</d>
+<d CellType="Decimal" UserText="80633.95">80633,95</d>
+<d CellType="Decimal" UserText="5017.933">5017,933</d>
+<d CellType="Decimal" UserText="12571.02">12571,02</d>
+<d CellType="Decimal" UserText="30535.72">30535,72</d>
+<d CellType="Decimal" UserText="54986.71">54986,71</d>
+<d CellType="Decimal" UserText="68690.54">68690,54</d>
+<d CellType="Decimal" UserText="66062.07">66062,07</d>
+<d CellType="Decimal" UserText="42237.76">42237,76</d>
+<d CellType="Decimal" UserText="16338.61">16338,61</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="106" Decimals="3" Subcolumns="1" MVType="Continues" statDecimals="12" statNumbers="0" statTexts="0">
+<Title>Extended product</Title>
+<Subcolumn>
+<d CellType="Decimal" UserText="9501.723">9501,723</d>
+<d CellType="Decimal" UserText="14392.82">14392,82</d>
+<d CellType="Decimal" UserText="15189.35">15189,35</d>
+<d CellType="Decimal" UserText="8349.217">8349,217</d>
+<d CellType="Decimal" UserText="13408.06">13408,06</d>
+<d CellType="Decimal" UserText="12725.69">12725,69</d>
+<d CellType="Decimal" UserText="9829.844">9829,844</d>
+<d CellType="Decimal" UserText="6099.731">6099,731</d>
+<d CellType="Decimal" UserText="16723.49">16723,49</d>
+<d CellType="Decimal" UserText="20298.17">20298,17</d>
+<d CellType="Decimal" UserText="14470.44">14470,44</d>
+<d CellType="Decimal" UserText="17505.53">17505,53</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="71" Decimals="6" Subcolumns="1" MVType="Continues" statDecimals="12" statNumbers="0" statTexts="0">
+<Title>%Extended</Title>
+<Subcolumn>
+<d CellType="Decimal" UserText="15.73432">15,73432</d>
+<d CellType="Decimal" UserText="17.58169">17,58169</d>
+<d CellType="Decimal" UserText="16.89514">16,89514</d>
+<d CellType="Decimal" UserText="9.382917">9,382917</d>
+<d CellType="Decimal" UserText="72.76709">72,76709</d>
+<d CellType="Decimal" UserText="50.30573">50,30573</d>
+<d CellType="Decimal" UserText="24.35206">24,35206</d>
+<d CellType="Decimal" UserText="9.985409">9,985409</d>
+<d CellType="Decimal" UserText="19.57933">19,57933</d>
+<d CellType="Decimal" UserText="23.50407">23,50407</d>
+<d CellType="Decimal" UserText="25.51737">25,51737</d>
+<d CellType="Decimal" UserText="51.72396">51,72396</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table6" XFormat="numbers" YFormat="replicates" Replicates="2" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Figure3e_HNAsynthesis_conc_extended_fraction</Title>
+<XColumn Width="114" Subcolumns="1" Decimals="4">
+<Title>Concentration (μM)</Title>
+<Subcolumn>
+<d>0,45</d>
+<d>0,22</d>
+<d>0,11</d>
+<d>0,06</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="114" Decimals="4" Subcolumns="1">
+<Title>Concentration (μM)</Title>
+<Subcolumn>
+<d>0,45</d>
+<d>0,22</d>
+<d>0,11</d>
+<d>0,06</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="162" Decimals="8" Subcolumns="2">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>25,08916974</d>
+<d>28,4300588</d>
+<d>21,94592254</d>
+<d>11,09011116</d>
+</Subcolumn>
+<Subcolumn>
+<d>15,73432</d>
+<d>17,58169</d>
+<d>16,89514</d>
+<d>9,382917</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="162" Decimals="8" Subcolumns="2">
+<Title>P562del</Title>
+<Subcolumn>
+<d>82,36928225</d>
+<d>63,73771444</d>
+<d>37,10018994</d>
+<d>17,54324671</d>
+</Subcolumn>
+<Subcolumn>
+<d>72,76709</d>
+<d>50,30573</d>
+<d>24,35206</d>
+<d>9,985409</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="162" Decimals="8" Subcolumns="2">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>25,08916974</d>
+<d>28,4300588</d>
+<d>21,94592254</d>
+<d>11,09011116</d>
+</Subcolumn>
+<Subcolumn>
+<d>15,73432</d>
+<d>17,58169</d>
+<d>16,89514</d>
+<d>9,382917</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="162" Decimals="8" Subcolumns="2">
+<Title>P562del</Title>
+<Subcolumn>
+<d>82,36928225</d>
+<d>63,73771444</d>
+<d>37,10018994</d>
+<d>17,54324671</d>
+</Subcolumn>
+<Subcolumn>
+<d>72,76709</d>
+<d>50,30573</d>
+<d>24,35206</d>
+<d>9,985409</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table15" XFormat="numbers" YFormat="replicates" Replicates="3" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Data_SI_Figure3b_EMSA_biorep1_techrep1</Title>
+<RowTitlesColumn Width="18">
+<Subcolumn/>
+</RowTitlesColumn>
+<SubColumnTitles OwnSet="0">
+<Subcolumn>
+<d><TextAlign align="Center">Unbound</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Intermediate</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Bound</TextAlign></d>
+</Subcolumn>
+</SubColumnTitles>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="237" Decimals="3" Subcolumns="3">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>43248,86</d>
+<d>30803,706</d>
+<d>45556,224</d>
+<d>23295,622</d>
+</Subcolumn>
+<Subcolumn>
+<d>27520,387</d>
+<d>11570,032</d>
+<d>5890,555</d>
+<d>2371,22</d>
+</Subcolumn>
+<Subcolumn>
+<d>2481,037</d>
+<d>25253,721</d>
+<d>26710,621</d>
+<d>35910,006</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="237" Decimals="8" Subcolumns="3">
+<Title>P562del</Title>
+<Subcolumn>
+<d>74826,775</d>
+<d>49472,68</d>
+<d>45931,759</d>
+<d>22692,329</d>
+</Subcolumn>
+<Subcolumn>
+<d>20539,362</d>
+<d>29110,304</d>
+<d>9804,584</d>
+<d>5364,149</d>
+</Subcolumn>
+<Subcolumn>
+<d>1470,53</d>
+<d>1331,288</d>
+<d>5120,765</d>
+<d>17820,245</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table16" XFormat="numbers" YFormat="replicates" Replicates="3" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Data_SI_Figure3b_EMSA_rep2_biorep1_techrep2</Title>
+<RowTitlesColumn Width="39">
+<Subcolumn/>
+</RowTitlesColumn>
+<SubColumnTitles OwnSet="0">
+<Subcolumn>
+<d><TextAlign align="Center">Unbound</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Intermediate</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Bound</TextAlign></d>
+</Subcolumn>
+</SubColumnTitles>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="237" Decimals="3" Subcolumns="3">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>11685,271</d>
+<d>1857,933</d>
+<d>7749,602</d>
+<d>1630,589</d>
+</Subcolumn>
+<Subcolumn>
+<d>19961,697</d>
+<d>10801,534</d>
+<d>3729,48</d>
+<d>1873,016</d>
+</Subcolumn>
+<Subcolumn>
+<d>2320,459</d>
+<d>11303,927</d>
+<d>11117,049</d>
+<d>19887,668</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="306" Decimals="8" Subcolumns="3">
+<Title>P562del</Title>
+<Subcolumn>
+<d>27816,759</d>
+<d>6688,602</d>
+<d>13034,362</d>
+<d>1056,79</d>
+</Subcolumn>
+<Subcolumn>
+<d>6496,217</d>
+<d>14203,492</d>
+<d>9121,794</d>
+<d>4566,472</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0</d>
+<d>2487,095</d>
+<d>9437,362</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table17" XFormat="numbers" YFormat="replicates" Replicates="3" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Data_SI_Figure3b_EMSA_rep3__biorep2_techrep1</Title>
+<RowTitlesColumn Width="18">
+<Subcolumn/>
+</RowTitlesColumn>
+<SubColumnTitles OwnSet="0">
+<Subcolumn>
+<d><TextAlign align="Center">Unbound</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Intermediate</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Bound</TextAlign></d>
+</Subcolumn>
+</SubColumnTitles>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="237" Decimals="3" Subcolumns="3">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>16495,354</d>
+<d>10980,442</d>
+<d>5628,258</d>
+<d>2709,045</d>
+</Subcolumn>
+<Subcolumn>
+<d>20401,96</d>
+<d>3206,392</d>
+<d>2743,078</d>
+<d>1029,522</d>
+</Subcolumn>
+<Subcolumn>
+<d>2682,602</d>
+<d>24153,245</d>
+<d>22474,831</d>
+<d>37768,014</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="237" Decimals="8" Subcolumns="3">
+<Title>P562del</Title>
+<Subcolumn>
+<d>30600,914</d>
+<d>28869,517</d>
+<d>26816,931</d>
+<d>7475,049</d>
+</Subcolumn>
+<Subcolumn>
+<d>19604,04</d>
+<d>15582,141</d>
+<d>8858,2</d>
+<d>8090,999</d>
+</Subcolumn>
+<Subcolumn>
+<d>367,77</d>
+<d>920,489</d>
+<d>3129,622</d>
+<d>10464,525</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table18" XFormat="numbers" YFormat="replicates" Replicates="3" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Data_SI_Figure3b_EMSA_rep4_biorep2_techrep2</Title>
+<RowTitlesColumn Width="18">
+<Subcolumn/>
+</RowTitlesColumn>
+<SubColumnTitles OwnSet="0">
+<Subcolumn>
+<d><TextAlign align="Center">Unbound</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Intermediate</TextAlign></d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Bound</TextAlign></d>
+</Subcolumn>
+</SubColumnTitles>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="237" Decimals="3" Subcolumns="3">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>37796,697</d>
+<d>29120,321</d>
+<d>27010,543</d>
+<d>16896,723</d>
+</Subcolumn>
+<Subcolumn>
+<d>17679,38</d>
+<d>2551,401</d>
+<d>1489,53</d>
+<d>314,861</d>
+</Subcolumn>
+<Subcolumn>
+<d>3063,572</d>
+<d>19845,538</d>
+<d>18266,496</d>
+<d>20667,839</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="237" Decimals="8" Subcolumns="3">
+<Title>P562del</Title>
+<Subcolumn>
+<d>54245,701</d>
+<d>50165,73</d>
+<d>52001,579</d>
+<d>32422,513</d>
+</Subcolumn>
+<Subcolumn>
+<d>15580,58</d>
+<d>13544,1</d>
+<d>7126,572</d>
+<d>6121,936</d>
+</Subcolumn>
+<Subcolumn>
+<d>1084,317</d>
+<d>1527,974</d>
+<d>3581,501</d>
+<d>4387,329</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table20" XFormat="numbers" YFormat="replicates" Replicates="2" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>SI_Figure3b_percentage_intermediate</Title>
+<RowTitlesColumn Width="39">
+<Subcolumn/>
+</RowTitlesColumn>
+<SubColumnTitles OwnSet="0">
+<Subcolumn>
+<d><TextAlign align="Center">Fraction of Intermediate Complex</TextAlign></d>
+<d/>
+<d>Fraction of Intermediate Complex</d>
+<d>Fraction of Intermediate Complex</d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Fraction of Intermediate Complex</TextAlign></d>
+<d/>
+<d>Fraction of Intermediate Complex</d>
+<d>Fraction of Intermediate Complex</d>
+</Subcolumn>
+</SubColumnTitles>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="248" Decimals="8" Subcolumns="2">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>0,481688</d>
+<d>0,310918</d>
+<d>0,120209</d>
+<d>0,059291</d>
+</Subcolumn>
+<Subcolumn>
+<d>0,408735</d>
+<d>0,066578</d>
+<d>0,060389</d>
+<d>0,016558</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="248" Decimals="8" Subcolumns="2">
+<Title>P562del</Title>
+<Subcolumn>
+<d>0,200713</d>
+<d>0,52206</d>
+<d>0,265631</d>
+<d>0,210066</d>
+</Subcolumn>
+<Subcolumn>
+<d>0,303681</d>
+<d>0,27552</d>
+<d>0,17096</d>
+<d>0,226712</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="248" Decimals="8" Subcolumns="2">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>0,481688</d>
+<d>0,310918</d>
+<d>0,120209</d>
+<d>0,059291</d>
+</Subcolumn>
+<Subcolumn>
+<d>0,408735</d>
+<d>0,066578</d>
+<d>0,060389</d>
+<d>0,016558</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="248" Decimals="6" Subcolumns="2">
+<Title>P562del</Title>
+<Subcolumn>
+<d>0,200713</d>
+<d>0,52206</d>
+<d>0,265631</d>
+<d>0,210066</d>
+</Subcolumn>
+<Subcolumn>
+<d>0,303681</d>
+<d>0,27552</d>
+<d>0,17096</d>
+<d>0,226712</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table21" XFormat="numbers" YFormat="replicates" Replicates="2" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>SI_Figure3b_percentage_bound</Title>
+<RowTitlesColumn Width="39">
+<Subcolumn/>
+</RowTitlesColumn>
+<SubColumnTitles OwnSet="0">
+<Subcolumn>
+<d><TextAlign align="Center">Fraction of Intermediate Complex</TextAlign></d>
+<d/>
+<d>Fraction of Intermediate Complex</d>
+<d>Fraction of Intermediate Complex</d>
+</Subcolumn>
+<Subcolumn>
+<d><TextAlign align="Center">Fraction of Intermediate Complex</TextAlign></d>
+<d/>
+<d>Fraction of Intermediate Complex</d>
+<d>Fraction of Intermediate Complex</d>
+</Subcolumn>
+</SubColumnTitles>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>0</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="248" Decimals="8" Subcolumns="2">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>0,051092</d>
+<d>0,42257</d>
+<d>0,416872</d>
+<d>0,716696</d>
+</Subcolumn>
+<Subcolumn>
+<d>0,060055</d>
+<d>0,507597</d>
+<d>0,559599</d>
+<d>0,727775</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="248" Decimals="8" Subcolumns="2">
+<Title>P562del</Title>
+<Subcolumn>
+<d>0,007593</d>
+<d>0,008329</d>
+<d>0,092534</d>
+<d>0,507531</d>
+</Subcolumn>
+<Subcolumn>
+<d>0,011282</d>
+<d>0,021855</d>
+<d>0,068881</d>
+<d>0,252101</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="248" Decimals="8" Subcolumns="2">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>0,051092</d>
+<d>0,42257</d>
+<d>0,416872</d>
+<d>0,716696</d>
+</Subcolumn>
+<Subcolumn>
+<d>0,060055</d>
+<d>0,507597</d>
+<d>0,559599</d>
+<d>0,727775</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="248" Decimals="6" Subcolumns="2">
+<Title>P562del</Title>
+<Subcolumn>
+<d>0,007593</d>
+<d>0,008329</d>
+<d>0,092534</d>
+<d>0,507531</d>
+</Subcolumn>
+<Subcolumn>
+<d>0,011282</d>
+<d>0,021855</d>
+<d>0,068881</d>
+<d>0,252101</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table22" XFormat="numbers" YFormat="replicates" Replicates="3" TableType="XY" EVFormat="AsteriskAfterNumber">
+<Title>Copy of Figure3b_HNAkinetics_un-extended_primer_reps1-3</Title>
+<XColumn Width="81" Subcolumns="1" Decimals="0">
+<Title>Time</Title>
+<Subcolumn>
+<d>0</d>
+<d>1</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+<d>240</d>
+</Subcolumn>
+</XColumn>
+<XAdvancedColumn Version="1" Width="81" Decimals="0" Subcolumns="1">
+<Title>Time</Title>
+<Subcolumn>
+<d>0</d>
+<d>1</d>
+<d>5</d>
+<d>10</d>
+<d>15</d>
+<d>30</d>
+<d>60</d>
+<d>240</d>
+</Subcolumn>
+</XAdvancedColumn>
+<YColumn Width="264" Decimals="9" Subcolumns="3">
+<Title>D12A-THR</Title>
+<Subcolumn>
+<d>0</d>
+<d>-0,15964</d>
+<d>-0,49208</d>
+<d>-0,20157</d>
+<d>-0,24655</d>
+<d>-0,21683</d>
+<d>-1,02502</d>
+<d/>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0,094112755</d>
+<d>0,01930975</d>
+<d>-0,081023933</d>
+<d>-0,07876635</d>
+<d>-0,015984182</d>
+<d>-0,281490288</d>
+<d>-1,59165702</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>-0,117721602</d>
+<d>-0,190363605</d>
+<d>-0,407776154</d>
+<d>-0,345031518</d>
+<d>-0,35625282</d>
+<d/>
+<d>-1,026878392</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="264" Decimals="6" Subcolumns="3">
+<Title>P562del</Title>
+<Subcolumn>
+<d>0</d>
+<d>-0,06639</d>
+<d>-0,65586</d>
+<d>-0,42464</d>
+<d>-0,00669</d>
+<d>0,005143</d>
+<d>-0,7375</d>
+<d/>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0,009635263</d>
+<d>0,067713619</d>
+<d>0,025837449</d>
+<d>-0,352824731</d>
+<d>0,002581273</d>
+<d>-0,869298598</d>
+<d>-1,178003184</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>-0,117734371</d>
+<d>-0,192074209</d>
+<d>-0,165161127</d>
+<d>-0,214761503</d>
+<d>-0,610061007</d>
+<d/>
+<d>-0,896213873</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="264" Decimals="9" Subcolumns="3">
+<Title>D12A-THR2</Title>
+<Subcolumn>
+<d>0</d>
+<d>-0,15964</d>
+<d>-0,49208</d>
+<d>-0,20157</d>
+<d>-0,24655</d>
+<d>-0,21683</d>
+<d>-1,02502</d>
+<d/>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0,094112755</d>
+<d>0,01930975</d>
+<d>-0,081023933</d>
+<d>-0,07876635</d>
+<d>-0,015984182</d>
+<d>-0,281490288</d>
+<d>-1,59165702</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>-0,117721602</d>
+<d>-0,190363605</d>
+<d>-0,407776154</d>
+<d>-0,345031518</d>
+<d>-0,35625282</d>
+<d/>
+<d>-1,026878392</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="264" Decimals="6" Subcolumns="3">
+<Title>P562del2</Title>
+<Subcolumn>
+<d>0</d>
+<d>-0,06639</d>
+<d>-0,65586</d>
+<d>-0,42464</d>
+<d>-0,00669</d>
+<d>0,005143</d>
+<d>-0,7375</d>
+<d/>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>0,009635263</d>
+<d>0,067713619</d>
+<d>0,025837449</d>
+<d>-0,352824731</d>
+<d>0,002581273</d>
+<d>-0,869298598</d>
+<d>-1,178003184</d>
+</Subcolumn>
+<Subcolumn>
+<d>0</d>
+<d>-0,117734371</d>
+<d>-0,192074209</d>
+<d>-0,165161127</d>
+<d>-0,214761503</d>
+<d>-0,610061007</d>
+<d/>
+<d>-0,896213873</d>
+</Subcolumn>
+</YColumn>
+</Table>
+
+<!--Analyses, graphs and layouts as compressed binary. Don't edit this part of the file.-->
+
+<Template xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">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
+tHc=</Template></GraphPadPrismFile>

@@ -1,0 +1,299 @@
+{
+    "a_galaxy_workflow": "true",
+    "annotation": "Join pair-end reads, filter by quality, convert to FASTA",
+    "format-version": "0.1",
+    "name": "NGS - pre-processing ",
+    "steps": {
+        "0": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/lparsons/fastq_join/fastq_join/1.1.2-806.1",
+            "errors": null,
+            "id": 0,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "runtime parameter for tool fastq-join",
+                    "name": "input_type"
+                },
+                {
+                    "description": "runtime parameter for tool fastq-join",
+                    "name": "input_type"
+                }
+            ],
+            "label": null,
+            "name": "fastq-join",
+            "outputs": [
+                {
+                    "name": "outputJoined",
+                    "type": "fastqsanger"
+                },
+                {
+                    "name": "outputUnmatched1",
+                    "type": "fastqsanger"
+                },
+                {
+                    "name": "outputUnmatched2",
+                    "type": "fastqsanger"
+                }
+            ],
+            "position": {
+                "bottom": 461.578125,
+                "height": 306.6875,
+                "left": -236,
+                "right": -36,
+                "top": 154.890625,
+                "width": 200,
+                "x": -236,
+                "y": 154.890625
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/lparsons/fastq_join/fastq_join/1.1.2-806.1",
+            "tool_shed_repository": {
+                "changeset_revision": "8ec3dfde378b",
+                "name": "fastq_join",
+                "owner": "lparsons",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"input_type\": {\"input_type_selector\": \"paired\", \"__current_case__\": 0, \"read1\": {\"__class__\": \"RuntimeValue\"}, \"read2\": {\"__class__\": \"RuntimeValue\"}}, \"minOverlap\": \"10\", \"pctMaxDiff\": \"1.0\", \"splitChar\": \" \", \"stitchLengthReport\": \"false\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.2-806.1",
+            "type": "tool",
+            "uuid": "d6edfe6a-3b31-4abf-a005-ca76003d7e2f",
+            "workflow_outputs": [
+                {
+                    "label": "fastq-join on input dataset(s) (joined)",
+                    "output_name": "outputJoined",
+                    "uuid": "d47c8359-4a4d-4473-bf51-c5741eee51db"
+                },
+                {
+                    "label": "fastq-join on input dataset(s) (unmatched1)",
+                    "output_name": "outputUnmatched1",
+                    "uuid": "e1a801a9-9939-4efb-98a9-daeb54bb76a2"
+                },
+                {
+                    "label": "fastq-join on input dataset(s) (unmatched2)",
+                    "output_name": "outputUnmatched2",
+                    "uuid": "2abe0372-a19b-48c6-aed2-6cd9bdfaed23"
+                }
+            ]
+        },
+        "1": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/devteam/fastq_quality_filter/cshl_fastq_quality_filter/1.0.2+galaxy0",
+            "errors": null,
+            "id": 1,
+            "input_connections": {
+                "input": {
+                    "id": 0,
+                    "output_name": "outputJoined"
+                }
+            },
+            "inputs": [],
+            "label": "cutoff 20, 99%",
+            "name": "Filter by quality",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "bottom": 351.0625,
+                "height": 93.171875,
+                "left": 9.5,
+                "right": 209.5,
+                "top": 257.890625,
+                "width": 200,
+                "x": 9.5,
+                "y": 257.890625
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/devteam/fastq_quality_filter/cshl_fastq_quality_filter/1.0.2+galaxy0",
+            "tool_shed_repository": {
+                "changeset_revision": "ce9cd02d5b88",
+                "name": "fastq_quality_filter",
+                "owner": "devteam",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"input\": {\"__class__\": \"ConnectedValue\"}, \"percent\": \"99\", \"quality\": \"20\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.0.2+galaxy0",
+            "type": "tool",
+            "uuid": "fdd106ce-bb89-459b-8d56-38a3e83f93f9",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "output",
+                    "uuid": "8deab37e-aae2-4e61-9040-6f03857160db"
+                }
+            ]
+        },
+        "2": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/devteam/fastqtofasta/fastq_to_fasta_python/1.1.5",
+            "errors": null,
+            "id": 2,
+            "input_connections": {
+                "input_file": {
+                    "id": 1,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "FASTQ to FASTA",
+            "outputs": [
+                {
+                    "name": "output_file",
+                    "type": "fasta"
+                }
+            ],
+            "position": {
+                "bottom": 382.0625,
+                "height": 93.171875,
+                "left": 252.5,
+                "right": 452.5,
+                "top": 288.890625,
+                "width": 200,
+                "x": 252.5,
+                "y": 288.890625
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/devteam/fastqtofasta/fastq_to_fasta_python/1.1.5",
+            "tool_shed_repository": {
+                "changeset_revision": "297962e79f39",
+                "name": "fastqtofasta",
+                "owner": "devteam",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"input_file\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.5",
+            "type": "tool",
+            "uuid": "4e33967a-fc28-478d-b7ab-12751d3460f9",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "output_file",
+                    "uuid": "da0a2b5a-c43e-43ae-8be9-ad361405b0f2"
+                }
+            ]
+        },
+        "3": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/devteam/fastx_reverse_complement/cshl_fastx_reverse_complement/1.0.2+galaxy0",
+            "errors": null,
+            "id": 3,
+            "input_connections": {
+                "input": {
+                    "id": 2,
+                    "output_name": "output_file"
+                }
+            },
+            "inputs": [
+                {
+                    "description": "runtime parameter for tool Reverse-Complement",
+                    "name": "input"
+                }
+            ],
+            "label": null,
+            "name": "Reverse-Complement",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "bottom": 344.34375,
+                "height": 133.953125,
+                "left": 513.5,
+                "right": 713.5,
+                "top": 210.390625,
+                "width": 200,
+                "x": 513.5,
+                "y": 210.390625
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/devteam/fastx_reverse_complement/cshl_fastx_reverse_complement/1.0.2+galaxy0",
+            "tool_shed_repository": {
+                "changeset_revision": "6027ef51ef91",
+                "name": "fastx_reverse_complement",
+                "owner": "devteam",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"input\": {\"__class__\": \"RuntimeValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.0.2+galaxy0",
+            "type": "tool",
+            "uuid": "7272350b-9e0d-40c5-99ee-2bf280c26663",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "output",
+                    "uuid": "3ecad199-8f1e-46c7-9e7c-ab37dd80a805"
+                }
+            ]
+        },
+        "4": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/mvdbeek/concatenate_multiple_datasets/cat_multiple/0.2",
+            "errors": null,
+            "id": 4,
+            "input_connections": {
+                "input": [
+                    {
+                        "id": 3,
+                        "output_name": "output"
+                    },
+                    {
+                        "id": 2,
+                        "output_name": "output_file"
+                    }
+                ]
+            },
+            "inputs": [
+                {
+                    "description": "runtime parameter for tool Concatenate multiple datasets",
+                    "name": "input"
+                }
+            ],
+            "label": null,
+            "name": "Concatenate multiple datasets",
+            "outputs": [
+                {
+                    "name": "out_file1",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "bottom": 527.0625,
+                "height": 113.5625,
+                "left": 713.5,
+                "right": 913.5,
+                "top": 413.5,
+                "width": 200,
+                "x": 713.5,
+                "y": 413.5
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/mvdbeek/concatenate_multiple_datasets/cat_multiple/0.2",
+            "tool_shed_repository": {
+                "changeset_revision": "201c568972c3",
+                "name": "concatenate_multiple_datasets",
+                "owner": "mvdbeek",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"input\": {\"__class__\": \"RuntimeValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "0.2",
+            "type": "tool",
+            "uuid": "65e5491a-e921-49a6-9b90-e66f9e0a9b0e",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "out_file1",
+                    "uuid": "b4bab218-739f-4e67-90d5-050ab043e9ec"
+                }
+            ]
+        }
+    },
+    "tags": [],
+    "uuid": "2d6edaef-911b-4088-afd6-4c5b71a077ec",
+    "version": 9
+}
